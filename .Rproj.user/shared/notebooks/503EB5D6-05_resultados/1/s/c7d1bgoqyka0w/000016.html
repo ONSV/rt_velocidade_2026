@@ -1,0 +1,553 @@
+<div id="tpokvizali" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+  <style>#tpokvizali table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#tpokvizali thead, #tpokvizali tbody, #tpokvizali tfoot, #tpokvizali tr, #tpokvizali td, #tpokvizali th {
+  border-style: none;
+}
+
+#tpokvizali p {
+  margin: 0;
+  padding: 0;
+}
+
+#tpokvizali .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 80%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#tpokvizali .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#tpokvizali .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#tpokvizali .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#tpokvizali .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#tpokvizali .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tpokvizali .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#tpokvizali .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#tpokvizali .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#tpokvizali .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#tpokvizali .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#tpokvizali .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#tpokvizali .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#tpokvizali .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#tpokvizali .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#tpokvizali .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#tpokvizali .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#tpokvizali .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#tpokvizali .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tpokvizali .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#tpokvizali .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#tpokvizali .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#tpokvizali .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tpokvizali .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#tpokvizali .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#tpokvizali .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tpokvizali .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tpokvizali .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#tpokvizali .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tpokvizali .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#tpokvizali .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#tpokvizali .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#tpokvizali .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tpokvizali .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#tpokvizali .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#tpokvizali .gt_left {
+  text-align: left;
+}
+
+#tpokvizali .gt_center {
+  text-align: center;
+}
+
+#tpokvizali .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#tpokvizali .gt_font_normal {
+  font-weight: normal;
+}
+
+#tpokvizali .gt_font_bold {
+  font-weight: bold;
+}
+
+#tpokvizali .gt_font_italic {
+  font-style: italic;
+}
+
+#tpokvizali .gt_super {
+  font-size: 65%;
+}
+
+#tpokvizali .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#tpokvizali .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#tpokvizali .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#tpokvizali .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#tpokvizali .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#tpokvizali .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#tpokvizali .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#tpokvizali .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#tpokvizali div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+  <table class="gt_table" style="table-layout:fixed;width:80%;" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <colgroup>
+    <col style="width:60px;"/>
+    <col style="width:20px;"/>
+    <col style="width:20px;"/>
+  </colgroup>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="uf">UF</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="ii1"><span class='gt_from_md'><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" data-external="1">
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><msub><mi>I</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">II_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="ii2"><span class='gt_from_md'><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" data-external="1">
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><msub><mi>I</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">II_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0785em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="uf" class="gt_row gt_center">AP</td>
+<td headers="ii1" class="gt_row gt_center">202.514,74</td>
+<td headers="ii2" class="gt_row gt_center">73.644,06</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">RR</td>
+<td headers="ii1" class="gt_row gt_center">154.831,76</td>
+<td headers="ii2" class="gt_row gt_center">66.802,97</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">AC</td>
+<td headers="ii1" class="gt_row gt_center">147.140,76</td>
+<td headers="ii2" class="gt_row gt_center">120.145,33</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">TO</td>
+<td headers="ii1" class="gt_row gt_center">83.820,74</td>
+<td headers="ii2" class="gt_row gt_center">10.892,88</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">AM</td>
+<td headers="ii1" class="gt_row gt_center">81.229,74</td>
+<td headers="ii2" class="gt_row gt_center">221.984,45</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">SE</td>
+<td headers="ii1" class="gt_row gt_center">71.980,88</td>
+<td headers="ii2" class="gt_row gt_center">16.558,73</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">RO</td>
+<td headers="ii1" class="gt_row gt_center">49.660,52</td>
+<td headers="ii2" class="gt_row gt_center">39.589,56</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">MS</td>
+<td headers="ii1" class="gt_row gt_center">45.922,64</td>
+<td headers="ii2" class="gt_row gt_center">8.237,50</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">PI</td>
+<td headers="ii1" class="gt_row gt_center">43.560,23</td>
+<td headers="ii2" class="gt_row gt_center">8.741,91</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">PB</td>
+<td headers="ii1" class="gt_row gt_center">42.600,93</td>
+<td headers="ii2" class="gt_row gt_center">9.541,07</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">AL</td>
+<td headers="ii1" class="gt_row gt_center">40.465,65</td>
+<td headers="ii2" class="gt_row gt_center">14.011,65</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">MA</td>
+<td headers="ii1" class="gt_row gt_center">36.678,46</td>
+<td headers="ii2" class="gt_row gt_center">16.861,90</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">ES</td>
+<td headers="ii1" class="gt_row gt_center">31.474,87</td>
+<td headers="ii2" class="gt_row gt_center">9.803,95</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">RN</td>
+<td headers="ii1" class="gt_row gt_center">24.614,70</td>
+<td headers="ii2" class="gt_row gt_center">6.716,59</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">PE</td>
+<td headers="ii1" class="gt_row gt_center">14.780,01</td>
+<td headers="ii2" class="gt_row gt_center">6.524,31</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center" style="font-weight: bold;">BR</td>
+<td headers="ii1" class="gt_row gt_center" style="font-weight: bold;">10.681,67</td>
+<td headers="ii2" class="gt_row gt_center" style="font-weight: bold;">2.566,34</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">DF</td>
+<td headers="ii1" class="gt_row gt_center">7.659,85</td>
+<td headers="ii2" class="gt_row gt_center">687,77</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">GO</td>
+<td headers="ii1" class="gt_row gt_center">5.780,71</td>
+<td headers="ii2" class="gt_row gt_center">815,32</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">RS</td>
+<td headers="ii1" class="gt_row gt_center">4.316,77</td>
+<td headers="ii2" class="gt_row gt_center">1.729,96</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">CE</td>
+<td headers="ii1" class="gt_row gt_center">3.428,60</td>
+<td headers="ii2" class="gt_row gt_center">400,04</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">PR</td>
+<td headers="ii1" class="gt_row gt_center">3.244,02</td>
+<td headers="ii2" class="gt_row gt_center">824,91</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">SP</td>
+<td headers="ii1" class="gt_row gt_center">3.006,77</td>
+<td headers="ii2" class="gt_row gt_center">710,47</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">SC</td>
+<td headers="ii1" class="gt_row gt_center">2.917,68</td>
+<td headers="ii2" class="gt_row gt_center">728,52</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">MT</td>
+<td headers="ii1" class="gt_row gt_center">2.840,87</td>
+<td headers="ii2" class="gt_row gt_center">772,01</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">PA</td>
+<td headers="ii1" class="gt_row gt_center">2.749,17</td>
+<td headers="ii2" class="gt_row gt_center">674,69</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">MG</td>
+<td headers="ii1" class="gt_row gt_center">2.718,84</td>
+<td headers="ii2" class="gt_row gt_center">715,19</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">RJ</td>
+<td headers="ii1" class="gt_row gt_center">2.497,68</td>
+<td headers="ii2" class="gt_row gt_center">728,74</td></tr>
+    <tr><td headers="uf" class="gt_row gt_center">BA</td>
+<td headers="ii1" class="gt_row gt_center">2.253,64</td>
+<td headers="ii2" class="gt_row gt_center">572,92</td></tr>
+  </tbody>
+  
+</table>
+</div>
