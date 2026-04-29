@@ -89,7 +89,7 @@ No tocante ao $IF_6$ (número de faixas fiscalizadas por câmeras fixas de segur
 
 O $IF_7$ (número de faixas fiscalizadas por câmeras fixas de segurança a cada bilhão de quilômetros rodados) apresentou maiores contrastes entre as Unidades da Federação. São Paulo (1.382,88) apresentou o maior valor, seguido do Rio Grande do Sul (144,62) e Minas Gerais (124,29). Nas últimas posições encontram-se na outra ponta, os menores valores foram identificados em Roraima (0,90) e Sergipe.
 
-Nos gráficos da \@ podem ser consultadas as séries temporais no período 2023 a 2026 para os indicadores de fiscalização eletrônica de velocidade $IF_1$, $IF_2$, $IF_6$ e $IF_7$.
+Nos gráficos da @fig-serie-i1 à @fig-serie-i7 podem ser consultadas as séries temporais no período 2023 a 2026 para os indicadores de fiscalização eletrônica de velocidade $IF_1$, $IF_2$, $IF_6$ e $IF_7$.
 
 ```{r}
 
