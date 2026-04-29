@@ -116,10 +116,10 @@ p_i1 <- tabela_geral %>%
   scale_size_identity() +
   theme_onsv() +
   labs(
-    title = "<i>IF</i><sub>2</sub>",
+    title = "<i>IF</i><sub>1</sub>",
     subtitle = "Brasil (Azul) vs Unidades da Federação (Amarelo)",
     x = "Ano",
-    y = "Valor do <i>IF</i><sub>2</sub>",
+    y = "Valor do <i>IF</i><sub>1</sub>",
     color = "Selecione a UF:"
   ) +
   scale_x_continuous(breaks = unique(tabela_geral$ano))
@@ -305,13 +305,14 @@ fig_i7
 ```
 Entre 2024 e 2025 houve um aumento do nível de fiscalização eletrônica no Brasil utilizando-se como referência o $IF_1$, que aumentou de 4,16 para 4,35 faixas fiscalizadas por câmeras fixas de segurança por grupo de 10 mil veículo – um aumento de 4,57%. Os valores para os anos de 2023 e 2026 podem ter sido influenciados pelo menor período de verificações disponível. Ao adotar como referência o $IF_2$, a evolução da série histórica é semelhante.     
 
-Na @tbl-municipios-i1, são apresentados os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ para os municípios brasileiros. Os valores são apresentados em ordem decrescente de cada indicador para os 10 municípios com os maiores valores. 
+Na @tbl-municipios-i1, @tbl-municipios-i2, @tbl-municipios-i3, @@tbl-municipios-i4, são apresentados os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ para os municípios brasileiros. Os valores são apresentados em ordem decrescente de cada indicador para os 10 municípios com os maiores valores. 
 
 ::: panel-tabset
 ## $IF_1$
 
 ```{r}
 #| label: tbl-municipios-i1
+#| fig-cap: "Ranking de municípios segundo o $IF_1$"
 read.csv("export/2024_municipios_if1.csv") %>%
     select(uf, municipio_formatado, i1) %>% 
   gt() %>% 
@@ -334,6 +335,7 @@ read.csv("export/2024_municipios_if1.csv") %>%
 
 ```{r}
 #| label: tbl-municipios-i2
+#| fig-cap: "Ranking de municípios segundo o $IF_2$"
 read.csv("export/2024_municipios_if2.csv") %>% 
     select(uf, municipio_formatado, i2) %>% 
   gt() %>% 
@@ -356,6 +358,7 @@ read.csv("export/2024_municipios_if2.csv") %>%
 
 ```{r}
 #| label: tbl-municipios-i3
+#| fig-cap: "Ranking de municípios segundo o $IF_3$"
 read.csv("export/2024_municipios_if3.csv") %>% 
     select(uf, municipio_formatado, i3) %>% 
   gt() %>% 
@@ -378,6 +381,7 @@ read.csv("export/2024_municipios_if3.csv") %>%
 
 ```{r}
 #| label: tbl-municipios-i4
+#| fig-cap: "Ranking de municípios segundo o $IF_4$"
 read.csv("export/2024_municipios_if4.csv") %>% 
     select(uf, municipio_formatado, i4) %>% 
   gt() %>% 
@@ -469,10 +473,16 @@ read_csv("export/uf_tabela_correlacao_2024.csv") %>%
   )
 ```
 
-- A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_7$) e indicador de mortalidade no trânsito $IM_1$ – Taxa de mortes por bilhão de quilômetros percorridos não resultou estatisticamente significativa (p-valor = 0,107).
-
 <p style="font-size: 16px;">
 
 Fonte: Os autores (2026)
 
 </p>
+
+- A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_7$) e indicador de mortalidade no trânsito $IM_1$ – Taxa de mortes por bilhão de quilômetros percorridos não resultou estatisticamente significativa (p-valor = 0,107).
+
+Um dos motivos que podem explicar a ausência de correlação estatisticamente significativa entre o $IF_1$ e o $II_1$ é a dinâmica entre nível de fiscalização e a quantidade de infrações. Até certo nível de fiscalização, é esperado que se registrem mais infrações relacionadas ao excesso de velocidade. No entanto, se esse nível de fiscalização continuar aumentando, é possível que, por sua ostensividade, resulte uma mudança de comportamento, fazendo com que apesar de uma quantidade maior equipamentos de fiscalização, eles registrem menos infrações.  
+
+A correlação estatisticamente significativa entre o indicador do nível de fiscalização eletrônica de velocidade ($IF_7$) e o indicador do nível de obediência à fiscalização eletrônica de velocidade ($II_2$) indica que em Unidades da Federação onde o nível de fiscalização eletrônica de velocidade é maior, o número de infrações de velocidade por faixa fiscalizada por câmera de segurança é menor. Este resultado é um indicativo da efetividade da utilização de câmeras de segurança para a redução da incidência do comportamento de risco do excesso de velocidade. A menor quantidade de faixas fiscalizadas por câmeras de segurança em relação à distância percorrida (dada por $IF_7$) reduz a percepção do condutor da presença da fiscalização, favorecendo a prática do excesso de velocidade. Por outro lado, onde há mais faixas fiscalizadas por câmeras de segurança em relação à distância percorrida, mais condutores são fiscalizados e maior é a percepção da presença da fiscalização, contribuindo para reduzir a prática do excesso de velocidade. 
+
+A ausência de correlação estatisticamente significativa entre o $IF_7$ e o $IM_1$ não deve ser interpretada como ausência de influência da fiscalização eletrônica de velocidade no nível de mortalidade no trânsito, pois o número de mortes no trânsito e, consequentemente o $IM_1$ dependem de múltiplos fatores de risco, tanto comportamentais quanto relacionados às condições do sistema viário e de mobilidade, dos veículos, da fiscalização de outros fatores de risco e da qualidade do atendimento médico e hospitalar. Dessa forma, há uma dificuldade em isolar a influência da fiscalização eletrônica de velocidade sobre a mortalidade no trânsito.
