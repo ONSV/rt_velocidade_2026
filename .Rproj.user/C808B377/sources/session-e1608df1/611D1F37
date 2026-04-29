@@ -1,0 +1,31 @@
+{
+    "id": "611D1F37",
+    "path": "~/Documents/onsv/relatorio_indicadores_velocidade/05_resultados.qmd",
+    "project_path": "05_resultados.qmd",
+    "type": "quarto_markdown",
+    "hash": "1677822513",
+    "contents": "",
+    "dirty": false,
+    "created": 1777433728044.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "404,0",
+        "scrollLine": "384",
+        "rmdVisualModeLocation": "9107:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1777434917,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1777434917936,
+    "read_only": false,
+    "read_only_alternatives": []
+}

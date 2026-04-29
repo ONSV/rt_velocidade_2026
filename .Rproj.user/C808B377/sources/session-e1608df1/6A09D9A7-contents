@@ -1,0 +1,157 @@
+@article{amancio2024impact,
+  title = {Impact of Speed Limit Enforcement Cameras on Speed Behavior: Naturalistic Evidence from Brazil},
+  author = {Amancio, E. C. and Gadda, T. M. C. and Corr{\^e}a, J. N. and Bonetti, G. C. and Oviedo-Trespalacios, O. and Bastos, J. T.},
+  journal = {Transportation Research Record},
+  volume = {2678},
+  number = {9},
+  pages = {807--822},
+  year = {2024},
+  publisher = {SAGE Publications Ltd},
+  doi = {10.1177/03611981241230548},
+  url = {https://doi.org/10.1177/03611981241230548},
+  note = {Acesso em: 20/04/2026}
+}
+
+@article{amancio2026effectiveness,
+  title = {Effectiveness of speed cameras in reducing speed: a systematic review},
+  author = {Amancio, E. C. and Gadda, T. M. C. and Domingos, M. D. I. and Bastos, J. T. and Bonetti, G. da C. and Ferreira, S. M. P. and Schmitz, A. and Oviedo-Trespalacios, O.},
+  journal = {Accident Analysis and Prevention},
+  volume = {231},
+  pages = {108488},
+  year = {2026},
+  publisher = {Elsevier Ltd},
+  doi = {10.1016/j.aap.2026.108488},
+  url = {https://doi.org/10.1016/j.aap.2026.108488},
+  note = {Acesso em: 19/04/2026}
+}
+
+@misc{brasil2023resolucao,
+  title = {Resolu{\c{c}}{\~a}o CONTRAN nº 1.004, de 21 de dezembro de 2023},
+  author = {{BRASIL}},
+  year = {2023},
+  organization = {Conselho Nacional de Tr{\^a}nsito},
+  address = {Brasília},
+  url = {https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10042023_Anexo_v2.pdf},
+  note = {Acesso em: 25/04/2026}
+}
+
+@techreport{brasil2024guia,
+  title = {Guia de medidas de modera{\c{c}}{\~a}o de tr{\^a}fego},
+  author = {{BRASIL}},
+  year = {2024},
+  institution = {Minist{\'e}rio dos Transportes. Secretaria Nacional de Tr{\^a}nsito},
+  address = {Brasília},
+  series = {Cole{\c{c}}{\~a}o Boas Pr{\'a}ticas em Seguran{\c{c}}a no Tr{\^a}nsito},
+  url = {https://www.gov.br/cidades/pt-br/central-de-conteudos/publicacoes/mobilidade-urbana/arquivos/GuiadeMedidasdeModeraodeTrfego_2024.pdf},
+  note = {Acesso em: 19/04/2026}
+}
+
+@misc{brasil2024inmetro,
+  title = {Portal de Servi{\c{c}}os do INMETRO nos Estados},
+  author = {{BRASIL}},
+  year = {2024},
+  organization = {Instituto Nacional de Metrologia, Qualidade e Tecnologia},
+  url = {https://Servicos.rbmlq.gov.br/},
+  note = {Acesso em: 06/06/2025}
+}
+
+@techreport{brasil2026guia,
+  title = {Guia de gest{\~a}o de velocidades},
+  author = {{BRASIL}},
+  year = {2026},
+  institution = {Minist{\'e}rio dos Transportes. Secretaria Nacional de Tr{\^a}nsito},
+  address = {Brasília},
+  series = {Cole{\c{c}}{\~a}o Boas Pr{\'a}ticas em Seguran{\c{c}}a no Tr{\^a}nsito},
+  url = {https://www.gov.br/transportes/pt-br/assuntos/transito/senatran/arquivos/Guia_Gestao_Velocidades_2026.pdf},
+  note = {Acesso em: 19/04/2026}
+}
+
+@book{gdci2025designing,
+  title = {Designing for safe speeds},
+  author = {{GDCI}},
+  year = {2025},
+  publisher = {Global Designing Cities Initiative},
+  address = {Nova Iorque},
+  url = {https://globaldesigningcities.org/publication/designing-for-safe-speeds/},
+  note = {Acesso em: 19/04/2026}
+}
+
+@article{hoye2014speed,
+  title = {Speed cameras, section control, and kangaroo jumps--a meta-analysis},
+  author = {H{\o}ye, A.},
+  journal = {Accident Analysis \& Prevention},
+  volume = {73},
+  pages = {200--208},
+  year = {2014},
+  doi = {10.1016/j.aap.2014.09.001},
+  url = {https://doi.org/10.1016/j.aap.2014.09.001},
+  note = {Acesso em: 20/04/2026}
+}
+
+@techreport{onsvufpr2025indicadores,
+  title = {Indicadores brasileiros sobre velocidade},
+  author = {{ONSV} and {UFPR}},
+  year = {2025},
+  institution = {Observat{\'o}rio Nacional de Seguran{\c{c}}a Vi{\'a}ria e Universidade Federal do Paran{\'a}},
+  address = {S{\~a}o Jos{\'e} dos Campos},
+  url = {https://www.onsv.org.br/estudos-pesquisas/sucesso-indicadores-brasileiros-sobre-fiscalizacao-de-velocidade},
+  note = {Acesso em: 09/04/2026}
+}
+
+@misc{puerta2024plataforma,
+  title = {Plataforma Market Share - Fiscaliza{\c{c}}{\~a}o Eletr{\^o}nica de Velocidade},
+  author = {{PUERTA ENGENHARIA}},
+  year = {2024},
+  url = {https://app.powerbi.com/view?r=eyJrIjoiNWQyZTYyZWItNWE5NC00YzEwLThkYTYtMmQ4Zjk5ZGU1ZmE3IiwidCI6IjljMThhMjQ0LWExYTctNDI0ZC1hNmM4LTE0OGU3Y2Y5OGRiZCJ9&pageName=ReportSectiond2c2fdd8d7bf26e78efc},
+  note = {Acesso em: 06/06/2025}
+}
+
+@techreport{safetynet2009speed,
+  title = {Speed Enforcement},
+  author = {{SAFETYNET}},
+  year = {2009},
+  address = {Bruxelas},
+  url = {https://road-safety.transport.ec.europa.eu/system/files/2021-07/speed_enforcement.pdf},
+  note = {Acesso em: 19/04/2026}
+}
+
+@book{turner2024guide,
+  title = {Guide for Safe Speeds: Managing traffic speeds to save lives and improve livability},
+  author = {Turner, B. M. and Eichinger-Vill, E. M. and El-Samra, S. and Adriazola-Steil, C. and Burlacu, A. F.},
+  year = {2024},
+  publisher = {World Bank e World Resources Institute},
+  address = {Washington, DC., USA},
+  url = {https://www.globalroadsafetyfacility.org/sites/default/files/2024-05/Guide%20for%20Safe%20Speeds%20-%20Managing%20Traffic%20Speeds%20to%20Save%20Lives.pdf},
+  note = {Acesso em: 01/03/2026}
+}
+
+@book{ufpronsv2023plano,
+  title = {O Plano Nacional de Redu{\c{c}}{\~a}o Mortes e Les{\~o}es no Tr{\^a}nsito: O Papel dos Municípios},
+  author = {{UFPR} and {ONSV}},
+  year = {2023},
+  publisher = {Universidade Federal do Paran{\'a} e Observat{\'o}rio Nacional de Seguran{\c{c}}a Vi{\'a}ria},
+  address = {Curitiba},
+  url = {https://www.onsv.org.br/estudos-pesquisas/sucesso-formulario-livro-pnatrans},
+  note = {Acesso em: 09/04/2026}
+}
+
+@book{who2023global,
+  title = {Global Status Report on Road Safety},
+  author = {{WHO}},
+  year = {2023},
+  publisher = {World Health Organization},
+  address = {Genebra},
+  url = {https://www.who.int/publications/i/item/978924008651},
+  note = {Acesso em: 01/03/2026}
+}
+
+@book{who2023speed,
+  title = {Speed Management: A Road Safety Manual for Decision-Makers and Practitioners},
+  author = {{WHO}},
+  edition = {Second},
+  year = {2023},
+  publisher = {World Health Organization},
+  address = {Genebra},
+  url = {https://cdn.who.int/media/docs/default-source/documents/health-topics/road-traffic-injuries/3146-wbk-speed-mgmt-2nd-edition-131023-electronic.pdf?sfvrsn=696ed45e_3&download=true},
+  note = {Acesso em: 01/03/2026}
+}

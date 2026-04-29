@@ -1,0 +1,51 @@
+# Sumário executivo {.unnumbered}
+
+A velocidade é um dos principais fatores de risco para a ocorrência e severidade dos sinistros de trânsito. A gestão de velocidades, por sua vez, é um princípio fundamental da abordagem dos Sistemas Seguros. Ainda que a literatura internacional sobre o tema seja abundante, pouco se conhece sobre esse fator de risco no cenário brasileiro. Dessa forma, o objetivo geral deste relatório técnico é reunir um conjunto de informações sobre o fator de risco da velocidade disponível no Brasil.
+
+Além de incluir a base conceitual sobre o tema, são apresentados e discutidos indicadores do desempenho da segurança viária inéditos sobre velocidade, considerando tanto dados gerais agregados nacionalmente e por unidade da federação, quanto dados mais detalhados de um cenário específico de uma capital brasileira. O termo “câmera de segurança” para se referir à fiscalização eletrônica de velocidade é introduzido, chamando a atenção para o caráter de segurança desses dispositivos.
+
+Entre os principais resultados destacam-se: (a) *rankings* dos indicadores de fiscalização eletrônica de velocidade segundo unidade da federação; (b) correlação estatisticamente significativa entre o nível de fiscalização eletrônica de velocidade e o número de infrações por grupo de 10 mil veículos, ou seja, onde é maior o nível de fiscalização é maior também a quantidade de infrações; (c) correlação estatisticamente significativa entre o nível de fiscalização eletrônica e o nível de obediência à fiscalização eletrônica de velocidade, ou seja, onde é maior o nível de fiscalização é menor a quantidade de infrações por câmera de segurança; (d) *rankings* dos indicadores de fiscalização eletrônica de velocidade segundo município, incluindo as capitais; (e) recomendações práticas para a gestão de velocidades em áreas urbanas obtidas a partir de evidências brasileiras.
+
+A partir das informações compiladas neste documento, pode-se concluir que ainda há uma grande lacuna entre os preceitos estabelecidos nos Sistemas Seguros e a realidade do sistema viário brasileiro, além de um cenário bastante diverso do uso de câmeras de segurança nas diferentes regiões do país.
+
+## Highlights
+
+- Em 2024, foram identificadas mais de 25 mil câmeras fixas de segurança no Brasil; 
+
+- Entre 2024 e 2025 houve um aumento do nível de fiscalização eletrônica no Brasil, de  4,16 para 4,35 faixas fiscalizadas por grupo de 10 mil veículos – um aumento de 4,57%;  
+
+- Distrito Federal e Ceará lideraram o ranking das Unidades da Federação quanto ao nível de fiscalização eletrônica de velocidade dado pelo número de faixas fiscalizadas por câmeras fixas de segurança por grupo de 10 mil veículos;  
+
+- Distrito Federal e Goiás lideraram o ranking das Unidades da Federação quanto ao nível de fiscalização eletrônica de velocidade dado pelo número de câmeras fixas de segurança por grupo de 10 mil veículos;  
+
+- São Paulo e Rio Grande do Sul lideraram o ranking das Unidades da Federação quanto ao nível de fiscalização eletrônica de velocidade dado pelo número de faixas fiscalizadas por câmeras fixas de segurança a cada bilhão de quilômetros rodados;  
+
+- Identificação de uma correlação inversa e estatisticamente significativa entre o número de faixas fiscalizadas por câmeras fixas de segurança a cada bilhão de quilômetros percorridos e o número de infrações de velocidade por faixa fiscalizada, ou seja, em Unidades da Federação onde o nível de fiscalização eletrônica é maior, o número de infrações por faixa fiscalizada é menor, indicando maior efetividade da fiscalização eletrônica de velocidade;
+
+- As capitais brasileiras com o maior nível de fiscalização eletrônica de velocidade foram Palmas e Brasília, respectivamente com valores de 12,98 e 11,14 faixas fiscalizadas por câmeras fixas de segurança por grupo de 10 mil veículos. 
+
+## Sobre o Observatório
+
+O Observatório Nacional de Segurança Viária é uma instituição social sem fins lucrativos, dedicada a desenvolver ações que contribuam efetivamente para a redução dos elevados índices de ocorrências no trânsito brasileiro. Com esse objetivo, um grupo de profissionais multidisciplinares decidiu reunir todo o seu conhecimento, experiência e motivação em um único projeto grandioso e desafiador: mobilizar a sociedade em prol de um trânsito mais seguro.
+
+## Agradecimentos
+
+A equipe de autores e o agradece à <a href="https://www.linkedin.com/company/puerta-engenharia/?originalSubdomain=br" target="_blank">Puerta Engenharia</a> por disponibilizar os dados sobre fiscalização eletrônica no Brasil, através de sua "Plataforma Market Share - Fiscalização Eletrônica de Velocidade".
+
+## Como citar
+
+ONSV; UFPR (2026). {{< meta title >}}. Observatório Nacional de Segurança Viária e Universidade Federal do Paraná. Disponível em: <https://www.onsv.org.br/estudos-pesquisas/estudos-e-pesquisas>
+
+## Licença de uso
+
+{{< meta title >}} (2026) por Observatório Nacional de Segurança Viária e Universidade Federal do Paraná está licenciada sob CC BY-NC 4.0. Para ver uma cópia desta licença, acesse <http://creativecommons.org/licenses/by-nc/4.0/>.
+
+::::: {layout-ncol="2"}
+::: left
+![](img/onsv_logo_main.png){width="80%" fig-align="center"}
+:::
+
+::: right
+![](img/marca_UFPR.png){width="30%" fig-align="center"}
+:::
+:::::

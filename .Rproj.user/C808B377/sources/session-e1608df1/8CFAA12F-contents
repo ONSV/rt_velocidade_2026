@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+
+$blue: #00496d;
+$yellow: #f7951d;
+$red: #d51f29;
+$white: #FFF;
+
+$link-color: $blue;
+
+/*-- scss:rules --*/
+
+p {
+  text-align: justify;
+}
+
+figure.quarto-float div.leaflet-control {
+  text-align: left;
+}
+
+h1 {
+  color: $blue;
+}
+
+h2, h3, h4, h5, h6 {
+  color: $blue;
+}
+
+.header-section-number {
+  color: $blue;
+}
+
+.quarto-title-banner {
+  background: $blue;
+  color: $white;
+}
+
+.quarto-title-meta-heading {
+  color: $blue;
+}
+
+thead {
+  background: $blue;
+  color: $white;
+}
+
+.quarto-xref {
+  color: $blue;
+}
+

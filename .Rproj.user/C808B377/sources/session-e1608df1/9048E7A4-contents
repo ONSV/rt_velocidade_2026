@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: docs
+
+execute:
+  echo: false     
+  warning: false   
+  message: false
+  
+book:
+  title: "Indicadores Brasileiros Sobre Fiscalização Eletrônica de Velocidade"
+  author:
+  - name: Ana Beatriz da S. Marques
+    orcid: 0009-0005-0639-8325
+  - name: Dr. Jorge Tiago Bastos
+    orcid: 0000-0001-6447-1504
+  date: last-modified
+  chapters:
+    - index.qmd
+    - 01_intro.qmd
+    - 02_diretrizes.qmd
+    - 03_antecedentes.qmd 
+    - 04_metodo.qmd
+    - 05_resultados.qmd
+    - 06_conclusoes.qmd
+    - 99_references.qmd
+  twitter-card: true
+  repo-url: https://www.github.com/ONSV/rtvelocidades
+  cover-image: img/capa.png
+  language: pt
+
+
+bibliography: references.bib
+
+editor: visual
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    lang: pt
+    fig-cap-location: top
+    linkcolor: "#00496d"

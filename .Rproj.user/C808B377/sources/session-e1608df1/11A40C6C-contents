@@ -1,0 +1,530 @@
+@article{Abdeljaber2020,
+  title = {Analysis of the Trajectories of Left-Turning Vehicles at Signalized Intersections},
+  author = {Abdeljaber, Osama and Younis, Adel and Alhajyaseen, Wael},
+  date = {2020},
+  journaltitle = {Transportation Research Procedia},
+  volume = {48},
+  pages = {1288--1295},
+  issn = {23521465},
+  doi = {10.1016/j.trpro.2020.08.152}
+}
+
+@thesis{Amancio2021,
+  type = {Dissertação de mestrado},
+  title = {{{INFLUÊNCIA DE DISPOSITIVOS DE FISCALIZAÇÃO ELETRÔNICA DE VELOCIDADE NO COMPORTAMENTO DO CONDUTOR EM CENÁRIO URBANO}}},
+  author = {Amancio, Eduardo Cesar},
+  date = {2021},
+  institution = {Universidade Tecnológica Federal do Paraná},
+  location = {Curitiba, PR},
+  url = {https://sistemas2.utfpr.edu.br/dpls/sistema/aluno01/mpCADEDocsAssinar.pcTelaAssinaturaDoc?p_pesscodnr=146772&p_cadedocpescodnr=922}
+}
+
+@article{Amancio2023,
+  title = {Impacto de Lombadas e Travessias Elevadas Na Velocidade de Veículos de Passeio Baseado Em Dados Naturalísticos},
+  author = {Amancio, Eduardo Cesar and Tres, Gabriele and Silva, Manoela Branco Ehlke and Guimarães Junior, Paulo Roberto and Bastos, Jorge Tiago},
+  date = {2023-05},
+  journaltitle = {TRANSPORTES},
+  volume = {31},
+  number = {2},
+  publisher = {Associacao Nacional de Pesquisa e Ensino em Transportes},
+  doi = {10.58922/transportes.v31i2.2832},
+  abstract = {A implementação de lombadas e faixas de pedestres elevadas tem sido uma estratégia popular de gerenciamento de velocidade amplamente utilizada no Brasil. Apesar da redução de velocidade imposta por tais medidas, pouco se sabe sobre a magnitude dessa redução ou mesmo sobre as velocidades praticadas nos trechos antes, durante e após a passagem pelo dispositivo. O objetivo deste trabalho foi avaliar o impacto de lombadas e faixas de pedestre elevadas na velocidade praticada de veículos de passeio. A metodologia incluiu (i) o mapeamento de lombadas e faixas de pedestre elevadas em vias estruturais, prioritárias e setoriais 1 e 2 do sistema viário de Curitiba (PR); (ii) coleta e processamento de dados naturalísticos de velocidade instantânea de uma amostra de condutores; (iii) elaboração de perfis de velocidade nos segmentos antes, durante e após a passagem pelos dispositivos; (iv) aplicação de critérios de exclusão de viagens da amostra por fatores de interferência; e (v) análise estatística. Os segmentos antes, durante e depois foram definidos como três faixas de análise de velocidade (FAV): 1, 2 e 3, respectivamente. A velocidade média na FAV 2 foi da mesma magnitude que para lombadas e faixas de pedestre elevadas (26 km/h), assim como para a variação de velocidade entre a FAV 1 e 2 – uma redução de cerca de 43\%. A velocidade na FAV 1 foi maior nas vias estruturais. Maiores reduções de velocidade entre FAV 1 e 2 foram encontradas para vias com maior hierarquia. Não houve diferenças estatisticamente significativas entre os dois dispositivos para distâncias de conformidade de velocidade menores ou iguais a 30 km/h ou 40 km/h, embora a distância média tenha sido 15,41\% maior para 30 km/h e 5,57\% maior para 40 km/h h no caso de faixas de pedestre elevadas. Em termos de planejamento urbano, tais informações podem subsidiar melhor as decisões sobre a implantação e posicionamento do dispositivo de gerenciamento de velocidade.}
+}
+
+@article{Amancio2024,
+  title = {Impact of Speed Limit Enforcement Cameras on Speed Behavior: {{Naturalistic}} Evidence from Brazil},
+  author = {Amancio, Eduardo Cesar and Gadda, Tatiana Maria Cecy and Corrêa, Janine Nicolosi and family=Costa Bonetti, given=Gabriela, prefix=da, useprefix=true and Oviedo-Trespalacios, Oscar and Bastos, Jorge Tiago},
+  date = {2024-02},
+  journaltitle = {Transportation Research Record: Journal of the Transportation Research Board},
+  issn = {0361-1981},
+  doi = {10.1177/03611981241230548},
+  abstract = {¡p¿Speeding is widely recognized as a key contributor to the occurrence and severity of road crashes, making studies on speed reduction devices particularly relevant given poor road safety outcomes worldwide. This study investigates the impact of fixed speed cameras on driver behavior and speed reduction in urban arterials using a naturalistic driving study methodology. Data from 13 drivers and 116 trips in Curitiba, Brazil, were analyzed, with a focus on speed cameras placed on arterial roads. Speed data were grouped and analyzed by various categories, including topographic profile, day and week periods, and rain conditions. Mean comparisons were used to compare data sets, revealing an overall speed reduction effect of 0.69\,km/h (−1.33\%) around the speed camera. The study identified a pattern of punctual speed reduction, known as a “kangaroo jump,” a speed reduction followed by an increase in speed, referred to as the “compensation effect,” and a new pattern characterized by a non-significant speed reduction at the speed camera site followed by an increase in speed, referred to as the “cobra strike effect” because of its curve pattern. The largest speed reductions were observed for flat topographic profiles (−2.98\%), daytime travel (−1.58\%), and travel on working days (−1.75\%) with rain (−1.80\%). Conversely, the speed camera had little impact on vehicle speed for uphill topographic profiles, no rain conditions, and travels during weekend.¡/p¿}
+}
+
+@article{Barbosa2000,
+  title = {A Model of Speed Profiles for Traffic Calmed Roads},
+  author = {Barbosa, Heloisa M. and Tight, Miles R. and May, Anthony D.},
+  date = {2000-02},
+  journaltitle = {Transportation Research Part A: Policy and Practice},
+  volume = {34},
+  number = {2},
+  pages = {103--123},
+  issn = {09658564},
+  doi = {10.1016/S0965-8564(98)00067-6}
+}
+
+@article{Barbosa2008,
+  title = {O Potencial de Plataformas Para o Controle de Velocidade Nas Suas Imediações Em Vias Urbanas},
+  author = {Barbosa, Heloisa and Moura, Mariana},
+  date = {2008-03},
+  journaltitle = {Revista dos Transportes Públicos},
+  volume = {117},
+  pages = {93--106}
+}
+
+@article{braysharpinGuiaParaAreas2022,
+  title = {Guia Para {{Áreas}} de {{Trânsito Calmo}}},
+  author = {Bray Sharpin, Anna and Adriazola-Steil, Claudia and Job, Soames and Obelheiro, Marta and Welle, Ben and Imamoglu, Celal Tolga and Bhatt, Amit and Liu, Daizong and Lleras, Natalia and Luke, Nikita},
+  date = {2022},
+  journaltitle = {World Resources Institute},
+  shortjournal = {WRIPUB},
+  doi = {10.46830/wrigb.18.00063pt},
+  url = {https://wribrasil.org.br/pt/publicacoes/guia-para-areas-de-transito-calmo},
+  urldate = {2023-10-26},
+  abstract = {Este Guia para Áreas de Trânsito Calmo apresenta estratégias para planejar, projetar, implementar e avaliar áreas de trânsito calmo. O guia pretende equipar comunidades e tomadores de decisão com as ferramentas adequadas para implementar áreas de trânsito calmo que se adaptem ao seu contexto específico.},
+  file = {/Users/pabsantos/Zotero/storage/KY5VNBPI/Bray Sharpin et al. - 2022 - Guia para Áreas de Trânsito Calmo.pdf}
+}
+
+@misc{Curitiba2019,
+  title = {Lei Nº 15.511/2019, {{Zoneamento}}, Uso e Ocupação Do Solo No Município de {{Curitiba}} e Dá Outras Providências},
+  author = {{Curitiba}},
+  date = {2019},
+  url = {https://mid.curitiba.pr.gov.br/2020/00304472.pdf}
+}
+
+@misc{Curitiba2020,
+  title = {Perfil Dos Óbitos Em Acidentes de Trânsito No Município de {{Curitiba}} - 2011-2019.},
+  author = {{Curitiba}},
+  date = {2020},
+  url = {https://mid-transito.curitiba.pr.gov.br/2021/5/pdf/00004887.pdf}
+}
+
+@misc{Curitiba2021,
+  title = {Perfil Dos Óbitos Em Acidentes de Trânsito No Município de {{Curitiba}} - 2011-2020},
+  author = {{Curitiba}},
+  date = {2021}
+}
+
+@misc{DENATRAN2021,
+  title = {Quantidade de Infrações ({{Notificação}} de {{Penalidade}})},
+  author = {{Ministério dos Transportes}},
+  date = {2023},
+  journaltitle = {Ministerio da infraestrutura},
+  url = {https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/estatisticas-quantidade-de-infracoes-denatran}
+}
+
+@article{Dumbaugh2009,
+  title = {Safe Urban Form: {{Revisiting}} the Relationship between Community Design and Traffic Safety},
+  author = {Dumbaugh, Eric and Rae, Robert},
+  date = {2009-06},
+  journaltitle = {Journal of the American Planning Association},
+  volume = {75},
+  pages = {309--329},
+  doi = {10.1080/01944360902950349},
+  abstract = {While concerns about traffic safety were central to the development of conventional community design practice, there has been little empirical examination into the relationship between community design and the incidence of traffic-related crashes, injuries, and deaths. This study examines the relationship between community design and crash incidence. It presents a brief historical review of the safety considerations that helped shape conventional community design practice, followed by the results of negative binomial models developed from a GIS-based database of crash incidence and urban form. The authors find that many of the safety assumptions embedded in contemporary community design practice are not substantiated by the empirical evidence. While it may be true that disconnecting local street networks and relocating non-residential uses to arterial thoroughfares can reduce neighborhood traffic volumes, these community design configurations appear to substitute one set of safety problems for another. Surface arterial thoroughfares, arterial-oriented commercial uses, and big box stores were all found to be associated with an increased incidence of traffic-related crashes and injuries, while higher-density communities with more traditional, pedestrian-oriented retail configurations were found to be associated with fewer crashes. Intersections were found to have a mixed effect on crash incidence. We conclude by discussing the likely reasons for these findings - vehicle operating speeds and systematic design error - and outline three general design considerations that may help address them. © 2013 selection and editorial material, Michael Hibbard, Robert Freestone, and Tore Øivin Sager.}
+}
+
+@article{Ellison2015,
+  title = {Speeding in Urban Environments: {{Are}} the Time Savings Worth the Risk?},
+  author = {Ellison, Adrian B. and Greaves, Stephen P.},
+  date = {2015-12},
+  journaltitle = {Accident Analysis \& Prevention},
+  volume = {85},
+  eprint = {26476194},
+  eprinttype = {pmid},
+  pages = {239--247},
+  publisher = {Pergamon},
+  issn = {0001-4575},
+  doi = {10.1016/J.AAP.2015.09.018},
+  abstract = {Perceived time savings by travelling faster is often cited as a motivation for drivers' speeding behaviour. These time savings, however, come at a cost of significant road injuries and fatalities. While it is known that drivers tend to overestimate the time savings attributable to speeding there is little empirical evidence on how much time drivers genuinely save during day-to-day urban driving and how this relates to speeding-related crashes. The current paper reports on a study to address the lack of empirical evidence on this issue using naturalistic driving data collected from 106 drivers over a period of five weeks. The results show that the average driver saves 26 s/day or 2 min/week by speeding. More importantly, the cost of these time savings is one fatality for every 24,450 h saved by the population on 100 km/h roads in dry conditions and one injury for every 2458 h saved on the same roads. Full speed compliance - and consequently a dramatic reduction in the road toll - could be achieved through almost imperceptible increases in travel time by each driver.},
+  keywords = {Crash risk,Naturalistic driving,Speeding,Time savings}
+}
+
+@book{elvikHandbookRoadSafety2009b,
+  title = {The {{Handbook}} of {{Road Safety Measures}}},
+  author = {Elvik, Rune and Høye, Alena and Vaa, Truls and Sørensen, Michael},
+  date = {2009},
+  edition = {Second edi},
+  publisher = {Emerald Group Publishing Limited},
+  location = {Bingley},
+  isbn = {978-1-84855-250-0}
+}
+
+@book{faveroAnaliseDadosModelagem2009,
+  title = {Análise de Dados: Modelagem Multivariada Para Tomada de Decisões},
+  author = {Fávero, Luiz Paulo Lopes and Belfiore, Patrícia Prado and family=Silva, given=Fabiana Lopes, prefix=da, useprefix=true and Chan, Betty Lilian},
+  date = {2009},
+  publisher = {Elsevier},
+  location = {Rio de Janeiro},
+  isbn = {978-85-352-3046-8}
+}
+
+@book{ferrazSegurancaNoTransito2023,
+  title = {Segurança no trânsito},
+  author = {Ferraz, Antonio Clovis Pinto "Coca" and Bastos, Jorge Tiago and Raia Junior, Archimedes Azevedo and Bezerra, Bárbara Stolte and Silva, Karla Cristina Rodrigues and Larocca, Ana Paula Camargo and Romão, Magaly Natalia Pazzian Vasconcellos},
+  date = {2023},
+  publisher = {Observatório Nacional de Segurança Viária},
+  location = {Curitiba, PR},
+  url = {https://www.onsv.org.br/estudos-pesquisas/livro-seguranca-no-transito},
+  isbn = {978-65-00-85500-5},
+  langid = {brazilian}
+}
+
+@article{Fitzpatrick2021,
+  title = {Speeds of Right-Turning Vehicles at Signalized Intersections during Green or Yellow Phase},
+  author = {Fitzpatrick, Kay and Pratt, Michael P. and Avelar, Raul},
+  date = {2021-10},
+  journaltitle = {Transportation Research Record: Journal of the Transportation Research Board},
+  volume = {2675},
+  number = {10},
+  pages = {503--515},
+  issn = {0361-1981},
+  doi = {10.1177/03611981211011642},
+  abstract = {¡p¿The operation and design of signalized intersections involves tradeoffs between operational efficiency and safety for a variety of users, including motorists, pedestrians, and bicyclists. Additionally, the mix of vehicle types in the fleet sometimes requires special considerations. These concerns especially apply to the selection of curb radius at the corners, where right-turning vehicles operate close to pedestrians. Larger curb radii accommodate the swept paths of trucks and allow right turns to occur at higher speeds but may compromise safety and security for pedestrians by increasing the crossing distance and increasing the frequency of higher-speed turns. The authors collected right-turn vehicle speeds at 31 urban signalized intersection approaches in Texas with radii ranging from 15 to 70\,ft. The authors calibrated a model to predict right-turn speeds as a function of site characteristics including curb radius, leading headway, vehicle type (car versus truck), maneuver of the preceding vehicle (through versus right turn), and signal indication (yellow or green). The analysis results indicate that right-turn speeds increase slightly with increasing radius, if the preceding vehicle proceeds through (rather than turning right) at the intersection, or if the signal indication is yellow rather than green. The calculated 85th percentile turning speed is generally higher than the assumed speed calculated using the radius of curvature equation. These trends should be considered if the intersection is expected to have notable volumes of pedestrians or trucks, as lower speeds are desirable for pedestrian safety, but larger radii may be necessary to accommodate turning trucks.¡/p¿}
+}
+
+@inproceedings{fuhrmannExcessoVelocidadeNa2023,
+  title = {Excesso de Velocidade Na {{Área Calma}} de {{Curitiba}} ({{PR}}): Análise Dos Fatores Determinantes e Estimativa Da Economia de Tempo},
+  booktitle = {Anais Do 37º {{Congresso}} de {{Pesquisa}} e {{Ensino}} Em {{Transportes}}},
+  author = {Fuhrmann, Louise and Amancio, Eduardo Cesar and Santos, Pedro Augusto B. and Bastos, Jorge Tiago},
+  date = {2023},
+  publisher = {ANPET},
+  location = {Santos - SP},
+  url = {https://proceedings.science/anpet-2023/trabalhos/excesso-de-velocidade-na-area-calma-de-curitiba-pr-analise-dos-fatores-determina?lang=pt-br#},
+  eventtitle = {37° {{Congresso}} de {{Pesquisa}} e {{Ensino}} Em {{Transportes}}}
+}
+
+@article{Furth2018,
+  title = {Using Traffic Signal Control to Limit Speeding Opportunities on Bidirectional Urban Arterials},
+  author = {Furth, Peter G. and Halawani, Ahmed T. M. and Li, Jin and Hu, Weimin (Jake) and Cesme, Burak},
+  date = {2018-12},
+  journaltitle = {Transportation Research Record: Journal of the Transportation Research Board},
+  volume = {2672},
+  number = {18},
+  pages = {107--116},
+  issn = {0361-1981},
+  doi = {10.1177/0361198118790638},
+  abstract = {¡p¿Although controlling speed on urban arterials is important for safety, conventional traffic calming techniques cannot usually be applied on arterials, and many jurisdictions prohibit automated speed enforcement. Moreover, unlike unidirectional arterials, bidirectional arterials with short intersection spacing are not amenable to green waves that can remove the incentive to speed. This research explores the ways that traffic signal coordination creates – or limits – speeding opportunities on bidirectional arterials. Two measures of speeding opportunity are proposed: number of unconstrained vehicles, meaning vehicles arriving at a stopline on green and with no vehicle less than 5 s ahead of them, and number of speeders in a traffic microsimulation in which 20\% of the vehicles have been assigned a desired speed in the “speeding” range. Theoretical analysis, confirmed by two case studies, show how speeding opportunities are related to degree of saturation, cycle length, specified progression speed (as in input to signal timing software), intersection spacing, and recall settings. The important role of clusters of intersections with near-simultaneous greens, a byproduct of bidirectional coordination with short intersection spacing, is examined. Clusters with many intersections are shown to create a strong speeding incentive, and cluster size can be reduced by lowering the cycle length and the progression speed. Case studies show it is sometimes possible to substantially reduce speeding opportunities with little or no increase in vehicular delay by lowering cycle length, lowering progression speed, dividing an arterial into smaller “coordination zones” with each zone having its own cycle length, and by abandoning coordination altogether.¡/p¿}
+}
+
+@book{hollanderNonparametricStatisticalMethods2015b,
+  title = {Nonparametric {{Statistical Methods}}},
+  author = {Hollander, Myles and A. Wolfe, Douglas and Chicken, Eric},
+  date = {2015-07-17},
+  series = {Wiley {{Series}} in {{Probability}} and {{Statistics}}},
+  edition = {1},
+  publisher = {Wiley},
+  doi = {10.1002/9781119196037},
+  url = {https://onlinelibrary.wiley.com/doi/book/10.1002/9781119196037},
+  urldate = {2024-04-19},
+  isbn = {978-0-470-38737-5 978-1-119-19603-7},
+  langid = {english}
+}
+
+@article{Huang2018,
+  title = {Examining Spatial Relationships between Crashes and the Built Environment: {{A}} Geographically Weighted Regression Approach},
+  author = {Huang, Yuan and Wang, Xiaoguang and Patton, David},
+  date = {2018-05},
+  journaltitle = {Journal of Transport Geography},
+  volume = {69},
+  pages = {221--233},
+  issn = {09666923},
+  doi = {10.1016/j.jtrangeo.2018.04.027}
+}
+
+@article{IPPUC2021,
+  title = {Dados Geográficos},
+  author = {{IPPUC}},
+  date = {2021},
+  url = {https://ippuc.org.br/geodownloads/geo.htm.}
+}
+
+@article{Kiran2020,
+  title = {Critical Analysis of Speed Hump and Speed Bump and Geometric Design of Curved Speed Hump},
+  author = {Kiran, Korra Ravi and Kumar, M. and Abhinay, B.},
+  date = {2020},
+  journaltitle = {Transportation Research Procedia},
+  volume = {48},
+  pages = {1211--1226},
+  issn = {23521465},
+  doi = {10.1016/j.trpro.2020.08.144}
+}
+
+@article{Marshall2017,
+  title = {Assessing Equity and Urban/Rural Road Safety Disparities in the {{US}}},
+  author = {Marshall, Wesley E. and Ferenchak, Nicholas N.},
+  date = {2017-10},
+  journaltitle = {Journal of Urbanism: International Research on Placemaking and Urban Sustainability},
+  volume = {10},
+  number = {4},
+  pages = {422--441},
+  issn = {1754-9175},
+  doi = {10.1080/17549175.2017.1310748}
+}
+
+@article{ministeriodasaudeNumberTrafficFatalities2020,
+  title = {Number of Traffic Fatalities in {{Brazil}}},
+  author = {{Ministério da Saúde}},
+  date = {2020},
+  url = {http://www2.datasus.gov.br/DATASUS/index.php?area=02}
+}
+
+@misc{ministeriodasaudeObitosPorCausas2022,
+  title = {Óbitos {{Por Causas Externas}}},
+  author = {{Ministério da Saúde}},
+  date = {2022},
+  journaltitle = {Departamento de Informática do SUS - DATASUS},
+  url = {http://tabnet.datasus.gov.br/}
+}
+
+@misc{ministeriodostransportesEstatisticasFrotaVeiculos2023,
+  title = {Estatísticas - {{Frota}} de {{Veículos}} - {{SENATRAN}}},
+  author = {{Ministério dos Transportes}},
+  date = {2023},
+  url = {https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/estatisticas-frota-de-veiculos-senatran},
+  organization = {Secretaria Nacional de Trânsito}
+}
+
+@article{monteiroAnalisePraticaExcesso2024,
+  title = {Análise Da Prática Do Excesso de Velocidade Em Vias de Trânsito Rápido a Partir de Dados Naturalísticos de Direção},
+  author = {Monteiro, Alexandre Schipitoski and Bastos, Jorge},
+  date = {2024-04-16},
+  journaltitle = {TRANSPORTES},
+  shortjournal = {TRANSPORTES},
+  volume = {32},
+  number = {1},
+  issn = {2237-1346},
+  doi = {10.58922/transportes.v32i1.2910},
+  url = {https://www.revistatransportes.org.br/anpet/article/view/2910},
+  urldate = {2024-04-23},
+  abstract = {O controle da velocidade constitui-se de um desafio para a gestão urbana orientada à redução de mortes e lesões no trânsito. O objetivo deste artigo foi avaliar a influência de características operacionais na ocorrência do excesso de velocidade nas vias de trânsito rápido de Curitiba (PR). A metodologia foi baseada no uso de dados naturalísticos de direção e na aplicação da regressão logística binária para investigar a relação entre características operacionais das vias (variáveis explicativas) e o excesso de velocidade (variável resposta). O resultado geral indica a prática do excesso de velocidade ao longo de 20,64\% do tempo de viagem em fluxo livre. A análise isolada das variáveis explicativas indicou que a presença de radar aumentou a chance de não exceder a velocidade entre 8,16 e 21,09 vezes para as situações de qualquer excesso e acima de 20\% do limite, respectivamente. A análise conjunta das variáveis explicativas resultou estatisticamente significativa para a presença de radar e a presença de semáforo, sendo que o primeiro reduziu em 9,55 vezes e o segundo aumentou em aproximadamente 30\% a chance de excesso. Este resultado demonstra a importância da fiscalização eletrônica de velocidade como parte da estratégia de gestão da velocidade em áreas urbanas.},
+  file = {/Users/pabsantos/Zotero/storage/LWQ5JGH3/Schipitoski Monteiro and Bastos - 2024 - Análise da prática do excesso de velocidade em via.pdf}
+}
+
+@book{nactoGuiaGlobalDesenho2019,
+  title = {Guia global de desenho de ruas},
+  author = {{NACTO}},
+  date = {2019-06-26},
+  publisher = {Editora Senac São Paulo},
+  location = {São Paulo},
+  isbn = {978-85-396-2458-4},
+  langid = {brazilian}
+}
+
+@article{Obelheiro2019,
+  title = {{{UMA ANÁLISE DA RELAÇÃO ENTRE AMBIENTE CONSTRUÍDO E ACIDENTES DE TRÂNSITO EM ZONAS DE TRÁFEGO}}},
+  author = {Obelheiro, Marta Rodrigues and Silva, Alan Ricardo and Nodari, Christine Tessele},
+  date = {2019},
+  journaltitle = {33º Congresso de Pesquisa e Ensino em Transporte da ANPET},
+  pages = {37--85},
+  url = {https://www.anpet.org.br/anais/documentos/2019/Tr%C3%A1fego%20Urbano%20e%20Rodovi%C3%A1rio/Seguran%C3%A7a%20Vi%C3%A1ria%20IV/6_789_AC.pdf}
+}
+
+@article{Obelheiro2020,
+  title = {A New Zone System to Analyze the Spatial Relationships between the Built Environment and Traffic Safety},
+  author = {Obelheiro, Marta Rodrigues and family=Silva, given=Alan Ricardo, prefix=da, useprefix=true and Nodari, Christine Tessele and Cybis, Helena Beatriz Bettella and Lindau, Luis Antonio},
+  date = {2020-04},
+  journaltitle = {Journal of Transport Geography},
+  volume = {84},
+  pages = {102699},
+  issn = {09666923},
+  doi = {10.1016/j.jtrangeo.2020.102699}
+}
+
+@article{openstreetmapcontributorsPlanetDumpRetrieved2024,
+  title = {Planet Dump Retrieved from {{https://planet.osm.org}}},
+  author = {{OPENSTREETMAP CONTRIBUTORS}},
+  date = {2024},
+  url = {https://www.openstreetmap.org}
+}
+
+@article{Ouyang2014,
+  title = {Geographic Information {{System}}–{{Based}} Community-Level Method to Evaluate the Influence of Built Environment on Traffic Crashes},
+  author = {Ouyang, Yiqiang and Bejleri, Ilir},
+  date = {2014-01},
+  journaltitle = {Transportation Research Record: Journal of the Transportation Research Board},
+  volume = {2432},
+  number = {1},
+  pages = {124--132},
+  issn = {0361-1981},
+  doi = {10.3141/2432-15},
+  abstract = {¡p¿Most current research analyzing traffic crashes is done at either the spot level or the regional level. Less attention is placed at the community level. In addition, the effects of changes in land use, population growth, and transportation networks on community traffic safety have not been systematically studied. Although a number of studies have defined some variables to describe the influence of the built environment on traffic crashes, no research has looked at this problem through a comprehensive framework of relevant built-environment variables. This study explored a geographic information system–based community-level method to understand the effects of the built environment on traffic crashes. The census block group was selected as the analysis unit for the study. The framework of D transportation variables, including the dimensions of density, diversity, design, destination accessibility, and distance to transit, was used to characterize the built environment. The crash and built-environment data were processed in a geographic information system, and the negative binomial model was applied. The results showed that density had little influence on any type of crash; however, the mixed land use was positively associated with all crash categories. Furthermore, street length and number of segments under the design variables resulted in positive coefficients. However, the number of intersections was negative to all crash types. Moreover, whereas the number of bus stops showed a positive influence on crashes, the coefficient that designated the distance of crashes from bus stops and commercial sites was negative.¡/p¿}
+}
+
+@article{Pau2001,
+  title = {Do Speed Bumps Really Decrease Traffic Speed? {{An Italian}} Experience},
+  author = {Pau, Massimiliano and Angius, Silvano},
+  date = {2001-09},
+  journaltitle = {Accident Analysis \& Prevention},
+  volume = {33},
+  number = {5},
+  pages = {585--597},
+  issn = {00014575},
+  doi = {10.1016/S0001-4575(00)00070-1}
+}
+
+@article{Poe2000,
+  title = {Analyzing Influence of Geometric Design on Operating Speeds along Low-Speed Urban Streets: {{Mixed-model}} Approach},
+  author = {Poe, Christopher M. and Mason, John M.},
+  date = {2000-01},
+  journaltitle = {Transportation Research Record: Journal of the Transportation Research Board},
+  volume = {1737},
+  number = {1},
+  pages = {18--25},
+  issn = {0361-1981},
+  doi = {10.3141/1737-03},
+  abstract = {¡p¿Studies have documented the significant effect of horizontal curvature on operating speed on two-lane rural highways. The geometric design of these facilities emphasizes the forgiving roadside to accommodate the higher vehicular speeds. High-speed geometric design is predicated on selecting design values for geometric elements that promote speed consistency and safety. The low-speed environment has different objectives in trying to provide access and accommodate multiple roadway users, such as bicyclists and pedestrians. The goal is to maintain lower speeds and thus to achieve the functionality of the roadway and improve overall safety. Too often, the speeds on these facilities exceed the intended target speed of the roadway. A study conducted by the Pennsylvania Transportation Institute supported several research efforts in the low-speed environment. Presented is a more sophisticated analysis of low-speed urban street data using mixed models. A mixed-model statistical approach with repeated measures is used to analyze the influence of geometric elements on operating speed. The power of a mixed-model approach is that it accounts for the random effect in the database (such as the data collection sites themselves) while modeling the fixed geometric effects. Because data were collected at several points along each roadway, the analysis also applies a repeated-measures approach that addresses the geometric elements effect on the same subjects traversing a roadway. The advantages and disadvantages of applying a more sophisticated statistical approach are presented.¡/p¿}
+}
+
+@misc{puertaengenhariaPlataformaMarketShare2024,
+  title = {Plataforma {{Market Share}} - {{Fiscalização Eletrônica}} de {{Velocidade}}},
+  author = {{Puerta Engenharia}},
+  date = {2024},
+  url = {https://app.powerbi.com/view?r=eyJrIjoiNWQyZTYyZWItNWE5NC00YzEwLThkYTYtMmQ4Zjk5ZGU1ZmE3IiwidCI6IjljMThhMjQ0LWExYTctNDI0ZC1hNmM4LTE0OGU3Y2Y5OGRiZCJ9&pageName=ReportSectiond2c2fdd8d7bf26e78efc}
+}
+
+@article{Richard2013,
+  title = {Investigating Speeding Behavior with Naturalistic Approaches},
+  author = {Richard, Christian and Campbell, John L. and Brown, James L. and Lichty, Monica G. and Chrysler, Susan T. and Atkins, Randolph},
+  date = {2013-01},
+  journaltitle = {Transportation Research Record: Journal of the Transportation Research Board},
+  volume = {2365},
+  number = {1},
+  pages = {58--65},
+  issn = {0361-1981},
+  doi = {10.3141/2365-08},
+  abstract = {¡p¿Although speeding is a significant contributor to traffic fatalities, attempts to address this problem have not led to a significant reduction in speed-related fatalities. There are a number of inherent shortcomings in using primarily self-report surveys and crash data to learn more about why drivers speed and in selecting countermeasures that will most effectively address speeding behaviors. An emerging empirical approach is to study the speeding choices that drivers make under everyday driving conditions by using naturalistic driving methods. Such an approach has the potential to yield highly informative data about speeding. These data, however, are complicated and prone to analytical confusion and uncertain interpretation if some key conceptual and methodological issues are not addressed. In this paper, an overview is provided of a naturalistic driving study that was intended to (a) identify the reasons why drivers speed; (b) model the relative roles of situational, demographic, and personality factors in predicting travel speeds; (c) classify speeders; and (d) identify interventions, countermeasures, and strategies for reducing speeding behaviors. The focus here is on discussing lessons learned associated with three methodological issues in particular (defining speeding, identifying a way to measure exposure, and obtaining accurate posted speeds) that were crucial to successfully analyzing the data that this study provided and for generating useful results and conclusions. It is believed that careful consideration of these issues will greatly benefit the traffic safety community, especially as future analyses of naturalistic driving data are considered.¡/p¿}
+}
+
+@article{Richard2017,
+  title = {Using Naturalistic Driving Data to Develop a Typology of Speeding Episodes},
+  author = {Richard, Christian M and Brown, James L and Atkins, Randolph and Divekar, Gautam},
+  date = {2017},
+  journaltitle = {Transportation Research Record},
+  volume = {2659},
+  number = {1},
+  pages = {91--97},
+  doi = {10.3141/2659-10},
+  url = {https://doi.org/10.3141/2659-10},
+  abstract = {Speeding-related crashes continue to be a serious problem in the United States. A recently completed NHTSA project, Motivations for Speeding, collected data to address questions about driver speeding behavior. This naturalistic driving study used 1-Hz GPS units to collect data from 88 drivers in Seattle, Washington, to record how fast vehicles traveled on different roadways. The current project further developed this data set to redefine speeding in terms of speeding episodes, which were continuous periods in which drivers exceeded the posted speed limit by at least 10 mph. More than half of all study participants averaged less than one speeding episode per trip taken. Various characteristics of speeding episodes representing aspects such as duration, magnitude, variability, and overall form of speeding were examined. Cluster analyses conducted using these characteristics of speeding episodes identified six types of speeding. These included two types of speeding that occurred around speed-zone transitions (speeding up and slowing down), incidental speeding, casual speeding, cruising speeding, and aggressive speeding. Qualitative examination of the speeding types indicated that these types also differed in terms of the prevalence of additional risky situational characteristics.}
+}
+
+@report{richardMotivationsSpeedingVolume2013a,
+  title = {Motivations for {{Speeding}}, {{Volume II}}: {{Findings Report}}},
+  author = {Richard, Christian M. and Campbell, John L. and Lichty, Monica G. and Brown, James L. and Chrysler, S and Lee, J D and Boyle, L and Reagle, G},
+  date = {2013},
+  institution = {National Highway Traffic Safety Administration},
+  location = {Washington, D.C.},
+  url = {https://www.nhtsa.gov/sites/nhtsa.gov/files/811818.pdf}
+}
+
+@misc{santosImpactBuiltEnvironment2022,
+  title = {The Impact of Built Environment on Speeding Behavior in {{Curitiba}} - {{Brazil}}},
+  author = {Santos, Pedro Augusto Borges Dos},
+  date = {2022},
+  url = {https://acervodigital.ufpr.br/handle/1884/78426},
+  organization = {Universidade Federal do Paraná}
+}
+
+@misc{Szeliga2022,
+  title = {{{VELOCIDADE PRATICADA EM CURVAS HORIZONTAIS EM MEIO URBANO}}: {{UMA ANÁLISE BASEADA EM DADOS NATURALÍSTICOS}}},
+  author = {Szeliga, Rafael Alessandro},
+  date = {2022},
+  url = {https://acervodigital.ufpr.br/xmlui/bitstream/handle/1884/79085/R%20-%20D%20-%20RAFAEL%20ALESSANDRO%20SZELIGA.pdf?sequence=1},
+  organization = {Universidade Federal do Paraná}
+}
+
+@article{Wang2017,
+  title = {Effects of Speed-Control Measures on the Safety of Unsignalized Midblock Street Crossings in {{China}}},
+  author = {Wang, Chao and Ye, Zhirui and Wang, Xinyi and Li, Wenting},
+  date = {2017-10},
+  journaltitle = {Traffic Injury Prevention},
+  volume = {18},
+  number = {7},
+  pages = {774--779},
+  issn = {1538-9588},
+  doi = {10.1080/15389588.2017.1287908}
+}
+
+@book{welleDesenhoCidadesSeguras2016b,
+  title = {O {{Desenho}} de {{Cidades Seguras}}},
+  author = {Welle, Ben and Liu, Qingnan and Li, Wei and Adriazola-Steil, Claudia and King, Robin and Sarmiento, Claudio and Obelheiro, Marta},
+  date = {2016},
+  publisher = {World Resources Institute - Brasil},
+  url = {https://www.wribrasil.org.br/sites/default/files/O-Desenho-de-Cidades-Seguras.pdf},
+  isbn = {978-1-56973-872-6},
+  file = {/Users/pabsantos/Zotero/storage/5L4HESR4/Welle et al. - 2016 - O Desenho de Cidades Seguras.pdf}
+}
+
+@book{whoGlobalStatusReport2023,
+  title = {Global Status Report on Road Safety 2023},
+  author = {{WHO}},
+  date = {2023},
+  publisher = {World Health Organization},
+  location = {Geneva},
+  url = {https://www.who.int/publications/i/item/9789240086517},
+  isbn = {978-92-4-008651-7},
+  langid = {english},
+  pagetotal = {81}
+}
+
+@book{whoSpeedManagementRoad2023,
+  title = {Speed Management: A Road Safety Manual for Decision-Makers and Practitioners},
+  author = {{WHO}},
+  date = {2023},
+  edition = {Second edition},
+  publisher = {World Health Organization},
+  location = {Geneva},
+  url = {https://cdn.who.int/media/docs/default-source/documents/health-topics/road-traffic-injuries/3146-wbk-speed-mgmt-2nd-edition-131023-electronic.pdf?sfvrsn=696ed45e_3&download=true}
+}
+
+@misc{Brasil2023,
+   author = {Brasil},
+   journal = {Resolução CONTRAN nº 1004, de 21 de dezembro de 2023. Dispõe sobre o Plano Nacional de Redução de Mortes e Lesões no Trânsito (PNATRANS), instituído pela Lei nº 13.614, de 11 de janeiro de 2018.Conselho Nacional de Trânsito},
+   title = {Brasil},
+   year = {2023},
+}
+
+@misc{Brasil2020,
+   author = {Brasil},
+   journal = {Resolução CONTRAN nº 798 de 02 de setembro de 2020. 	 Dispõe sobre requisitos técnicos mínimos para a fiscalização da velocidade de veículos automotores, elétricos, reboques e semirreboques. Conselho Nacional de Trânsito},
+   title = {Brasil},
+   year = {2020},
+}
+
+@misc{Brasil2024,
+   author = {Brasil},
+   journal = {https://servicos.rbmlq.gov.br/},
+   title = {Portal de serviçoes do INMETRO dos estados},
+   year = {2024},
+}
+
+@misc{DENATRAN2021,
+  title = {Quantidade de Infrações ({{Notificação}} de {{Penalidade}})},
+  author = {{Ministério dos Transportes}},
+  date = {2023},
+  journaltitle = {Ministerio da infraestrutura},
+  url = {https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/estatisticas-quantidade-de-infracoes-denatran}
+}
+
+@misc{dnitRepositorioDNITDados2024,
+  title = {Repositório Do {{DNIT}} - {{Dados}} Do {{SNV}}},
+  author = {{DNIT}},
+  date = {2024},
+  url = {https://servicos.dnit.gov.br/dnitcloud/index.php/s/oTpPRmYs5AAdiNr}
+}
+
+@misc{ministeriodasaudeObitosPorCausas2022,
+  title = {Óbitos {{Por Causas Externas}}},
+  author = {{Ministério da Saúde}},
+  date = {2024},
+  journaltitle = {Departamento de Informática do SUS - DATASUS},
+  url = {http://tabnet.datasus.gov.br/}
+}
+
+@misc{ministeriodostransportesEstatisticasFrotaVeiculos2023,
+  title = {Estatísticas - {{Frota}} de {{Veículos}} - {{SENATRAN}}},
+  author = {{Ministério dos Transportes}},
+  date = {2023},
+  url = {https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/estatisticas-frota-de-veiculos-senatran},
+  organization = {Secretaria Nacional de Trânsito}
+}
+
+@misc{Brasil1997,
+   author = {Brasil},
+   city = {Brasília},
+   publisher = {Presidência da República},
+   title = {Lei nº 9.503, de 23 de setembro de 1997 - Código de Trânsito Brasileiro},
+   url = {http://www.planalto.gov.br/ccivil_03/leis/l9503.htm},
+   year = {1997},
+}

@@ -1,0 +1,713 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1177/03611981241230548",
+            "URL": "https://doi.org/10.1177/03611981241230548",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Amancio",
+                    "given": "E. C."
+                },
+                {
+                    "family": "Gadda",
+                    "given": "T. M. C."
+                },
+                {
+                    "family": "Corrêa",
+                    "given": "J. N."
+                },
+                {
+                    "family": "Bonetti",
+                    "given": "G. C."
+                },
+                {
+                    "family": "Oviedo-Trespalacios",
+                    "given": "O."
+                },
+                {
+                    "family": "Bastos",
+                    "given": "J. T."
+                }
+            ],
+            "container-title": "Transportation Research Record",
+            "id": "amancio2024impact",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "page": "807-822",
+            "publisher": "SAGE Publications Ltd",
+            "title": "Impact of speed limit enforcement cameras on speed behavior: Naturalistic evidence from brazil",
+            "title-short": "Impact of speed limit enforcement cameras on speed behavior",
+            "type": "article-journal",
+            "volume": "2678"
+        },
+        {
+            "DOI": "10.1016/j.aap.2026.108488",
+            "URL": "https://doi.org/10.1016/j.aap.2026.108488",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Amancio",
+                    "given": "E. C."
+                },
+                {
+                    "family": "Gadda",
+                    "given": "T. M. C."
+                },
+                {
+                    "family": "Domingos",
+                    "given": "M. D. I."
+                },
+                {
+                    "family": "Bastos",
+                    "given": "J. T."
+                },
+                {
+                    "family": "Bonetti",
+                    "given": "G. da C."
+                },
+                {
+                    "family": "Ferreira",
+                    "given": "S. M. P."
+                },
+                {
+                    "family": "Schmitz",
+                    "given": "A."
+                },
+                {
+                    "family": "Oviedo-Trespalacios",
+                    "given": "O."
+                }
+            ],
+            "container-title": "Accident Analysis and Prevention",
+            "id": "amancio2026effectiveness",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "page": "108488",
+            "publisher": "Elsevier Ltd",
+            "title": "Effectiveness of speed cameras in reducing speed: A systematic review",
+            "title-short": "Effectiveness of speed cameras in reducing speed",
+            "type": "article-journal",
+            "volume": "231"
+        },
+        {
+            "URL": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10042023_Anexo_v2.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        25
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "id": "brasil2023contran",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "Conselho Nacional de Trânsito",
+            "publisher-place": "Brasília",
+            "title": "Resolução CONTRAN nº 1.004, de 21 de dezembro de 2023",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.gov.br/cidades/pt-br/central-de-conteudos/publicacoes/mobilidade-urbana/arquivos/GuiadeMedidasdeModeraodeTrfego_2024.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "collection-title": "Coleção boas práticas em segurança no trânsito",
+            "id": "brasil2024a_moderacao",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "2024a",
+            "publisher": "Ministério dos Transportes. Secretaria Nacional de Trânsito",
+            "publisher-place": "Brasília",
+            "title": "Guia de medidas de moderação de tráfego",
+            "type": "book"
+        },
+        {
+            "URL": "https://Servicos.rbmlq.gov.br/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        6,
+                        6
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "id": "brasil2024b_inmetro",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "2024b",
+            "publisher": "Instituto Nacional de Metrologia, Qualidade e Tecnologia",
+            "title": "Portal de serviços do INMETRO nos estados",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://servicos.dnit.gov.br/dnitcloud/index.php/s/oTpPRmYs5AAdiNr",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        25
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "id": "brasil2024c_dnit",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "2024c",
+            "publisher": "Departamento Nacional de Infraestrutura de Transportes. Ministério dos Transportes",
+            "publisher-place": "Brasília",
+            "title": "Repositório do DNIT - dados do SNV",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/estatisticas-frota-de-veiculos-senatran.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        25
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "id": "brasil2025a_senatran",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "note": "2025a",
+            "publisher": "Secretaria Nacional de Trânsito. Ministério dos Transportes",
+            "publisher-place": "Brasília",
+            "title": "Estatísticas - frota de veículos - SENATRAN",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/estatisticas-quantidade-de-infracoes-denatran",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        25
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "id": "brasil2025b_infracoes",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "note": "2025b",
+            "publisher": "Secretaria Nacional de Trânsito. Ministério dos Transportes",
+            "publisher-place": "Brasília",
+            "title": "Quantidade de infrações",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.gov.br/transportes/pt-br/assuntos/transito/senatran/arquivos/Guia_Gestao_Velocidades_%202026.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "BRASIL"
+                }
+            ],
+            "collection-title": "Coleção boas práticas em segurança no trânsito",
+            "id": "brasil2026a_velocidades",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "note": "2026a",
+            "publisher": "Ministério dos Transportes. Secretaria Nacional de Trânsito",
+            "publisher-place": "Brasília",
+            "title": "Guia de gestão de velocidades",
+            "type": "book"
+        },
+        {
+            "URL": "https://globaldesigningcities.org/publication/designing-for-safe-speeds/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "GDCI"
+                }
+            ],
+            "id": "gdci2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "Global Designing Cities Initiative",
+            "publisher-place": "Nova Iorque",
+            "title": "Designing for safe speeds",
+            "type": "webpage"
+        },
+        {
+            "DOI": "10.1016/j.aap.2014.09.001",
+            "URL": "https://doi.org/10.1016/j.aap.2014.09.001",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Høye",
+                    "given": "A."
+                }
+            ],
+            "container-title": "Accident Analysis & Prevention",
+            "id": "hoye2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "page": "200-208",
+            "title": "Speed cameras, section control, and kangaroo jumps–a meta-analysis",
+            "type": "article-journal",
+            "volume": "73"
+        },
+        {
+            "URL": "https://www.onsv.org.br/estudos/nivel-minimo-de-fiscalizacao-eletronica",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "ONSV"
+                }
+            ],
+            "id": "onsv2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "Observatório Nacional de Segurança Viária",
+            "publisher-place": "São José dos Campos",
+            "title": "Nível mínimo de fiscalização eletrônica",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.onsv.org.br/estudos-pesquisas/sucesso-indicadores-brasileiros-sobre-fiscalizacao-de-velocidade",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "ONSV"
+                },
+                {
+                    "literal": "UFPR"
+                }
+            ],
+            "id": "onsv_ufpr2025_indicadores",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "Observatório Nacional de Segurança Viária e Universidade Federal do Paraná",
+            "publisher-place": "São José dos Campos",
+            "title": "Indicadores brasileiros sobre velocidade",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.onsv.org.br/estudos-pesquisas/livro-pnatrans-o-papel-dos-municipios",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "ONSV"
+                },
+                {
+                    "literal": "UFPR"
+                }
+            ],
+            "id": "onsv_ufpr2023_pnatrans",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "Observatório Nacional de Segurança Viária e Universidade Federal do Paraná",
+            "publisher-place": "Curitiba",
+            "title": "O plano nacional de redução de mortes e lesões no trânsito: O papel dos municípios",
+            "title-short": "O plano nacional de redução de mortes e lesões no trânsito",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.onsv.org.br/estudos-pesquisas/sucesso-download-taxa-de-mortes-por-bilhao-de-quilometros-percorridos-2024",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "ONSV"
+                },
+                {
+                    "literal": "UFPR"
+                }
+            ],
+            "id": "onsv_ufpr2026_taxa",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "publisher": "Observatório Nacional de Segurança Viária e Universidade Federal do Paraná",
+            "publisher-place": "São José dos Campos",
+            "title": "Taxa de mortes por bilhão de quilômetros percorridos - 2024",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://www.openstreetmap.org",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        8,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "OPENSTREETMAP CONTRIBUTORS"
+                }
+            ],
+            "id": "osm2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "note": "Retrieved from https://planet.osm.org",
+            "title": "Planet dump",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://app.powerbi.com/view?r=eyJrIjoiNWQyZTYyZWItNWE5NC00YzEwLThkYTYtMmQ4Zjk5ZGU1ZmE3IiwidCI6IjljMThhMjQ0LWExYTctNDI0ZC1hNmM4LTE0OGU3Y2Y5OGRiZCJ9&pageName=ReportSectiond2c2fdd8d7bf26e78efc",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2025,
+                        6,
+                        6
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "PUERTA ENGENHARIA"
+                }
+            ],
+            "id": "puerta2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "Plataforma market share - fiscalização eletrônica de velocidade",
+            "type": "webpage"
+        },
+        {
+            "URL": "https://road-safety.transport.ec.europa.eu/system/files/2021-07/speed_enforcement.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "SAFETYNET"
+                }
+            ],
+            "id": "safetynet2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "publisher-place": "Bruxelas",
+            "title": "Speed enforcement",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.globalroadsafetyfacility.org/sites/default/files/2024-05/Guide%20for%20Safe%20Speeds%20-%20Managing%20Traffic%20Speeds%20to%20Save%20Lives.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Turner",
+                    "given": "B. M."
+                },
+                {
+                    "family": "Eichinger-Vill",
+                    "given": "E. M."
+                },
+                {
+                    "family": "El-Samra",
+                    "given": "S."
+                },
+                {
+                    "family": "Adriazola-Steil",
+                    "given": "C."
+                },
+                {
+                    "family": "Burlacu",
+                    "given": "A. F."
+                }
+            ],
+            "id": "turner2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "publisher": "World Bank e World Resources Institute",
+            "publisher-place": "Washington, DC., USA",
+            "title": "Guide for safe speeds: Managing traffic speeds to save lives and improve livability",
+            "title-short": "Guide for safe speeds",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.who.int/publications/i/item/978924008651",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "WHO"
+                }
+            ],
+            "id": "who2023a_global",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "2023a",
+            "publisher": "World Health Organization",
+            "publisher-place": "Genebra",
+            "title": "Global status report on road safety",
+            "type": "book"
+        },
+        {
+            "URL": "https://cdn.who.int/media/docs/default-source/documents/health-topics/road-traffic-injuries/3146-wbk-speed-mgmt-2nd-edition-131023-electronic.pdf?sfvrsn=696ed45e_3&download=true",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "WHO"
+                }
+            ],
+            "edition": "Second edition",
+            "id": "who2023b_speed",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "note": "2023b",
+            "publisher": "World Health Organization",
+            "publisher-place": "Genebra",
+            "title": "Speed management: A road safety manual for decision-makers and practitioners",
+            "title-short": "Speed management",
+            "type": "book"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

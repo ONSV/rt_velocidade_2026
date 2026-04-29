@@ -1,0 +1,453 @@
+# Resultados {#sec-resultados}
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(gt)
+library(tidyverse)
+library(onsvplot)
+library(plotly)
+```
+
+
+Foram identificadas 26.122 câmeras de segurança no Brasil no ano de 2024. Desde total, 98,67% correspondem a câmeras fixas de segurança (25.774 câmeras). Do total de câmeras fixas de segurança no Brasil, 58,79% estão localizadas em vias urbanas (15.153 câmeras de segurança) e 41,21% em rodovias (10.621 câmeras de segurança). Na comparação com o estudo anterior baseado nos dados de 2023 [@onsv_ufpr2025_indicadores], percebe-se que houve um aumento da proporção de câmeras fixas de segurança nas vias urbanas, tendo em vista que no ano de 2023 representavam 50,50% dos equipamentos.  
+
+O gráfico da @fig-grafico-velocidade demonstra a quantidade absoluta de câmeras fixas de segurança para cada limite de velocidade estabelecido. 
+
+```{r}
+#| label: fig-grafico-velocidade
+#| fig-cap: Quantidade de câmeras fixas de segurança segundo o limite de velocidade
+read_csv("export/radares_2024.csv") |>
+  filter(
+    tipo_medidor == "FIXO",
+    ultimo_resultado != "REPROVADO",
+    velocidade_nominal > 20
+  ) |>
+  count(velocidade_nominal) |>
+  ggplot(aes(x = velocidade_nominal, y = n)) +
+  geom_col(fill = onsv_palette$blue, width = 5) +
+  theme_onsv() +
+  labs(y = NULL, x = "Velocidade limite (km/h)") +
+  scale_x_continuous(breaks = seq(20, 120, 10), minor_breaks = NULL)
+```
+
+
+A @tbl-ufs-i1 contém os valores dos sete indicadores de fiscalização eletrônica de velocidade ($IF_1$ ao $IF_7$) para o Brasil e para as 27 Unidades da Federação. Os valores estão ordenados em ordem decresecente conforme o $IF_1$, que manifesta o nível geral de fiscalização eletrônica de velocidade a partir de câmeras fixas de segurança. 
+
+
+```{r}
+#| label: tbl-ufs-i1
+#| tbl-cap: "Indicadores de fiscalização eletrônica de velocidade para Unidades da Federação"
+#| echo: false
+#| warning: false
+#| 
+tabela_ufs <- read.csv("export/ufs_2024.csv") %>% 
+  gt() %>%
+  cols_align(
+    align = "center",
+    columns = everything() 
+  ) %>% 
+   tab_options(
+    table.width = pct(80) 
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(rows = uf == "BR")
+  ) %>%
+  cols_label(
+    uf = "UF",
+    i1 = md("$IF_1$"),
+    i2 = md("$IF_2$"),
+    i3 = md("$IF_3$"),
+    i4 = md("$IF_4$"),
+    i5 = md("$IF_5$"),
+    i6 = md("$IF_6$"),
+    i7 = md("$IF_7$")
+  ) %>%
+  fmt_number(columns = c(i1,i2,i3,i4,i5, i6, i7), decimals = 2, dec_mark = ",",
+    sep_mark = ".") %>% 
+  cols_width(
+      uf ~ px(60),              #
+    starts_with("i") ~ px(100) 
+  ) 
+
+tabela_ufs
+```
+<p style="font-size: 16px;">Fonte: Os autores (2026)</p>
+
+Em relação ao $IF_1$ (número de faixas fiscalizadas por câmeras fixas de segurança por grupo de 10 mil veículos), o valor nacional resultou em 4,16. Distrito Federal (11,13), Ceará (8,57), Tocantins (7,70) e Goiás (7,09) se destacaram com os maiores valores. Por outro lado, os estados do Amazonas (0,37), Acre (1,22) e Rondônia apresentaram os valores mais baixos. 
+
+Os resultados ao considerar o $IF_2$ (número de câmeras fixas de segurança por grupo de 10 mil veículos) foram similares, com Distrito Federal (5,65), Goiás (4,12), Ceará (3,71) e Tocantins (3,48) apresentaram os maiores valores e Amazonas (0,24), Acre (0,44) e Rondônia (0,62) apresentaram os menores valores. O valor nacional para este indicador resultou em 2,11. 
+
+Em relação ao $IF_3$ (número de faixas fiscalizadas por câmeras fixas de segurança em vias urbanas por grupo de 10 mil veículos), o valor nacional resultou em 2,55. Distrito Federal (6,81) e  Tocantins (4,05) resultaram com os maiores valores. Por outro lado, os estados de Alagoas (0,00) e  Amazonas (0,15) resultaram com os menores valores referentes às vias urbanas. 
+
+Para o $IF_4$ (número de faixas fiscalizadas por câmeras fixas de segurança em rodovias por grupo de 10 mil veículos), o Ceará (5,03), o Distrito Federal (4,33) e Goiás (4,12) apresentaram os indicadores mais elevados. Na base, com os menores indicadores figuram Amazonas e Acre, ambos com IF4 igual 0,22.  
+
+O $IF_5$ (percentual de faixas fiscalizadas por câmeras fixas de segurança aprovadas e reparadas sobre o total de faixas monitoradas câmeras de segurança) mostrou menor dispersão entre as Unidades da Federação, com valores máximos de 1,00 observados no Distrito Federal, Ceará, Rio de Janeiro, Mato Grosso do Sul, Rio Grande do Norte e Acre. Em contrapartida, Amazonas apresentou o indicador mais baixo (0,83).  
+
+No tocante ao $IF_6$ (número de faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de rodovia federal), o ranking muda de perfil: Alagoas (30,08), Sergipe (28,64) e Distrito Federal (22,05) assumem as primeiras posições. O menor valor foi registrado nos estados do Acre (0,24) e Amazonas (0,40).  
+
+O $IF_7$ (número de faixas fiscalizadas por câmeras fixas de segurança a cada bilhão de quilômetros rodados) apresentou maiores contrastes entre as Unidades da Federação. São Paulo (1.382,88) apresentou o maior valor, seguido do Rio Grande do Sul (144,62) e Minas Gerais (124,29). Nas últimas posições encontram-se  na outra ponta, os menores valores foram identificados em Roraima (0,90) e Sergipe. 
+
+Nos gráficos da @ podem ser consultadas as séries temporais no período 2023 a 2026 para os indicadores de fiscalização eletrônica de velocidade $IF_1$, $IF_2$, $IF_6$ e $IF_7$. 
+
+```{r}
+
+azul_onsv <- "#00496d"
+amarelo_onsv <- "#ef7d00"
+
+tabela_geral <- read_csv("export/tabela_geral.csv")
+ufs_unicas <- unique(tabela_geral$uf)
+cores_map <- rep(azul_onsv, length(ufs_unicas))
+names(cores_map) <- ufs_unicas
+cores_map["BR"] <- amarelo_onsv
+```
+
+```{r}
+#| label: fig-serie-i1
+p_i1 <- tabela_geral %>%
+  ggplot(aes(x = ano, y = i1, color = uf, group = uf,
+             text = paste("UF:", uf, "<br>Valor:", round(i1, 2)))) +
+  geom_line(aes(linewidth = ifelse(uf == "BR", 2, 0.8))) +
+  geom_point(aes(size = ifelse(uf == "BR", 3.5, 1.8))) +
+  
+  scale_color_manual(values = cores_map) +
+  scale_linewidth_identity() + 
+  scale_size_identity() +
+  theme_onsv() +
+  labs(
+    title = "<i>IF</i><sub>2</sub>",
+    subtitle = "Brasil (Azul) vs Unidades da Federação (Amarelo)",
+    x = "Ano",
+    y = "Valor do <i>IF</i><sub>2</sub>",
+    color = "Selecione a UF:"
+  ) +
+  scale_x_continuous(breaks = unique(tabela_geral$ano))
+
+fig_i1 <- ggplotly(p_i1, tooltip = "text")
+
+for(i in seq_along(fig_i1$x$data)){
+  if(fig_i1$x$data[[i]]$name != "BR"){
+    fig_i1$x$data[[i]]$visible <- "legendonly"
+  } else {
+    fig_i1$x$data[[i]]$line$width <- 4 
+  }
+}
+
+fig_i1 <- fig_i1 %>% layout(
+  showlegend = TRUE,
+  legend = list(
+    orientation = "v",  
+    x = 1.05,            
+    y = 0.5,             
+    xanchor = "left",    
+    yanchor = "middle",
+    traceorder = "normal"
+  ),
+  margin = list(r = 100) 
+)
+
+fig_i1
+```
+
+
+```{r}
+#| label: fig-serie-i2
+p_i2 <- tabela_geral %>%
+  ggplot(aes(x = ano, y = i2, color = uf, group = uf,
+             text = paste("UF:", uf, "<br>Valor:", round(i2, 2)))) +
+  geom_line(aes(linewidth = ifelse(uf == "BR", 2, 0.8))) +
+  geom_point(aes(size = ifelse(uf == "BR", 3.5, 1.8))) +
+  
+  scale_color_manual(values = cores_map) +
+  scale_linewidth_identity() + 
+  scale_size_identity() +
+  theme_onsv() +
+  labs(
+    title = "<i>IF</i><sub>2</sub>",
+    subtitle = "Brasil (Azul) vs Unidades da Federação (Amarelo)",
+    x = "Ano",
+    y = "Valor do <i>IF</i><sub>2</sub>",
+    color = "Selecione a UF:"
+  ) +
+  scale_x_continuous(breaks = unique(tabela_geral$ano))
+
+fig_i2 <- ggplotly(p_i2, tooltip = "text")
+
+for(i in seq_along(fig_i2$x$data)){
+  if(fig_i2$x$data[[i]]$name != "BR"){
+    fig_i2$x$data[[i]]$visible <- "legendonly"
+  } else {
+    fig_i2$x$data[[i]]$line$width <- 4 
+  }
+}
+
+fig_i2 <- fig_i2 %>% layout(
+  showlegend = TRUE,
+  legend = list(
+    orientation = "v",  
+    x = 1.05,            
+    y = 0.5,             
+    xanchor = "left",    
+    yanchor = "middle",
+    traceorder = "normal"
+  ),
+  margin = list(r = 100) 
+)
+
+fig_i2
+```
+
+```{r}
+#| label: fig-serie-i6
+p_i6 <- tabela_geral %>%
+  ggplot(aes(x = ano, y = i6, color = uf, group = uf,
+             text = paste("UF:", uf, "<br>Valor:", round(i6, 2)))) +
+  geom_line(aes(linewidth = ifelse(uf == "BR", 2, 0.8))) +
+  geom_point(aes(size = ifelse(uf == "BR", 3.5, 1.8))) +
+  
+  scale_color_manual(values = cores_map) +
+  scale_linewidth_identity() + 
+  scale_size_identity() +
+  theme_onsv() +
+  labs(
+    title = "<i>IF</i><sub>6</sub>",
+    subtitle = "Brasil (Azul) vs Unidades da Federação (Amarelo)",
+    x = "Ano",
+    y = "Valor do <i>IF</i><sub>6</sub>",
+    color = "Selecione a UF:"
+  ) +
+  scale_x_continuous(breaks = unique(tabela_geral$ano))
+
+fig_i6 <- ggplotly(p_i6, tooltip = "text")
+
+for(i in seq_along(fig_i6$x$data)){
+  if(fig_i6$x$data[[i]]$name != "BR"){
+    fig_i6$x$data[[i]]$visible <- "legendonly"
+  } else {
+    fig_i6$x$data[[i]]$line$width <- 4 
+  }
+}
+
+fig_i6 <- fig_i6 %>% layout(
+  showlegend = TRUE,
+  legend = list(
+    orientation = "v",  
+    x = 1.05,            
+    y = 0.5,             
+    xanchor = "left",    
+    yanchor = "middle",
+    traceorder = "normal"
+  ),
+  margin = list(r = 100) 
+)
+
+fig_i6
+```
+```{r}
+#| label: fig-serie-i7
+p_i7 <- tabela_geral %>%
+  ggplot(aes(x = ano, y = i7, color = uf, group = uf,
+             text = paste("UF:", uf, "<br>Valor:", round(i7, 2)))) +
+  geom_line(aes(linewidth = ifelse(uf == "BR", 2, 0.8))) +
+  geom_point(aes(size = ifelse(uf == "BR", 3.5, 1.8))) +
+  
+  scale_color_manual(values = cores_map) +
+  scale_linewidth_identity() + 
+  scale_size_identity() +
+  theme_onsv() +
+  labs(
+    title = "<i>IF</i><sub>7</sub>",
+    subtitle = "Brasil (Azul) vs Unidades da Federação (Amarelo)",
+    x = "Ano",
+    y = "Valor do <i>IF</i><sub>7</sub>",
+    color = "Selecione a UF:"
+  ) +
+  scale_x_continuous(breaks = c(2023, 2024))
+
+fig_i7 <- ggplotly(p_i7, tooltip = "text")
+
+for(i in seq_along(fig_i7$x$data)){
+  if(fig_i7$x$data[[i]]$name != "BR"){
+    fig_i7$x$data[[i]]$visible <- "legendonly"
+  } else {
+    fig_i7$x$data[[i]]$line$width <- 4 
+  }
+}
+
+fig_i7 <- fig_i7 %>% layout(
+  showlegend = TRUE,
+  legend = list(
+    orientation = "v",  
+    x = 1.05,            
+    y = 0.5,             
+    xanchor = "left",    
+    yanchor = "middle",
+    traceorder = "normal"
+  ),
+  margin = list(r = 100) 
+)
+
+fig_i7
+```
+
+Na @tbl-municipios-i1, são apresentados os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ para os municípios brasileiros. Os valores são apresentados em ordem decrescente de cada indicador para os 10 municípios com os maiores valores. Analisar...   
+
+
+::: {.panel-tabset}
+
+## $IF_1$
+```{r}
+#| label: tbl-municipios-i1
+read.csv("export/2024_municipios_if1.csv") %>%
+    select(uf, municipio_formatado, i1) %>% 
+  gt() %>% 
+  tab_options(
+    table.width = pct(70) 
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = everything()
+  ) %>% 
+  cols_label(
+    uf = "UF",
+    municipio_formatado = "Município",
+    i1 = md("$IF_1$")
+  ) %>%
+  fmt_number(columns = i1, decimals = 2, dec_mark = ",", sep_mark = ".")
+```
+
+## $IF_2$
+```{r}
+#| label: tbl-municipios-i2
+read.csv("export/2024_municipios_if2.csv") %>% 
+    select(uf, municipio_formatado, i2) %>% 
+  gt() %>% 
+    tab_options(
+    table.width = pct(70) 
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = everything()
+  ) %>% 
+  cols_label(
+    uf = "UF",
+    municipio_formatado = "Município",
+    i2 = md("$IF_2$")
+  ) %>%
+  fmt_number(columns = i2, decimals = 2, dec_mark = ",", sep_mark = ".")
+```
+
+## $IF_3$
+```{r}
+#| label: tbl-municipios-i3
+read.csv("export/2024_municipios_if3.csv") %>% 
+    select(uf, municipio_formatado, i3) %>% 
+  gt() %>% 
+    tab_options(
+    table.width = pct(70) 
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = everything()
+  ) %>% 
+  cols_label(
+    uf = "UF",
+    municipio_formatado = "Município",
+    i3 = md("$IF_3$")
+  ) %>%
+  fmt_number(columns = i3, decimals = 2, dec_mark = ",", sep_mark = ".")
+```
+
+## $IF_4$
+```{r}
+#| label: tbl-municipios-i4
+read.csv("export/2024_municipios_if4.csv") %>% 
+    select(uf, municipio_formatado, i4) %>% 
+  gt() %>% 
+    tab_options(
+    table.width = pct(70) 
+  ) %>% 
+  cols_align(
+    align = "center",
+    columns = everything()
+  ) %>% 
+  cols_label(
+    uf = "UF",
+    municipio_formatado = "Município",
+    i4 = md("$IF_4$")
+  ) %>%
+  fmt_number(columns = i4, decimals = 2, dec_mark = ",", sep_mark = ".")
+```
+
+
+:::
+
+<p style="font-size: 16px;">Fonte: Os autores (2026)</p>
+
+O município de Coronel Pacheco (MG) liderou o ranking, com 155,05 faixas fiscalizadas por câmeras de segurança por grupo de 10 mil veículos. Na sequência, o município de Santa Cruz de Goiás (GO) parece com 132,83 faixas fiscalizadas por câmeras de segurança por grupo de 10 mil veículos, seguido pelo município de Nazária (PI), com uma taxa de 119,60 faixas fiscalizadas por câmeras de segurança por grupo de 10 mil veículos.  
+
+
+Na @tbl-capitais-i1, encontram-se os resultados dos indicadores de fiscalização eletrônica de velocidade nas capitais brasileiras ($IF_8$ – número de faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município). 
+
+
+```{r}
+#| label: tbl-capitais-i1
+#| tbl-cap: "Ranking de capitais segundo os indicadores de fiscalização eletrônica de velocidade"
+tabela_capitais <- read.csv("export/capitais_2024.csv") %>% 
+  gt() %>%
+  cols_align(
+    align = "center",
+    columns = everything() # Use c(uf, i1) para centralizar apenas colunas específicas
+  ) %>% 
+  tab_options(
+    table.width = pct(80) 
+  ) %>% 
+  cols_label(
+    municipio_formatado = "Município",
+    uf = "UF",
+    i1 = md("$IF_1$"),
+    i2 = md("$IF_2$"),
+    i3 = md("$IF_3$"),
+    i4 = md("$IF_4$"),
+    i5 = md("$IF_5$"),
+    i8 = md("$IF_8$")
+  ) %>%
+  fmt_number(columns = c(i1,i2,i3,i4,i5, i8), decimals = 2, dec_mark = ",", sep_mark = ".")
+
+tabela_capitais
+```
+<p style="font-size: 16px;">Fonte: Os autores (2026)</p>
+
+Entre as capitais, Palmas (TO) liderou o ranking do nível de fiscalização eletrônica de velocidade dado por IF1, com 12,98 faixas fiscalizadas por grupo de 10 mil veículos. Brasília (DF) e Fortaleza vêm na sequência, com valores de 11,14 e 9,69 para o mesmo indicador. Curitiba (PR) e João Pessoa (PB) apresentaram níveis similares de fiscalização, com o indicador em torno de 8 faixas fiscalizadas por grupo de 10 mil veículos. No entanto, ao utilizar como referência o IF8, o ranking se modificou e Brasília (DF) passou a ocupar a primeira posição, com 40,73 faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município, seguida por Curitiba (PR) e Fortaleza (CE), com valores respectivamente iguais a 23,24 e 18,84. 
+
+Os resultados das análises de correlação dos indicadores de fiscalização eletrônica de velocidade são listados a seguir: 
+- A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e o indicador de infrações de trânsito II1 – Número de infrações de velocidade por grupo de 10 mil veículos não resultou estatisticamente significativa (p-valor = 0,199); 
+
+- A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e indicador de infrações de trânsito II2 – Número de infrações de velocidade por faixa fiscalizada por câmera de segurança resultou inversa e estatisticamente significativa, com coeficiente de correlção igual a -0,58 (p-valor = 0,002); 
+
+
+```{r}
+#| label: fig-correlacao-ii2
+#| fig-cap: "Gráfico da correlação entre o $IF_1$ e $II_2$"
+#| 
+read_csv("export/uf_tabela_correlacao_2024.csv") %>% 
+  ggplot(aes(x = i1, y = ii2)) +
+  geom_point(color = onsv_palette$blue) +
+  geom_smooth(
+    se = FALSE,
+    method = "lm",
+    lty = "dashed",
+    color = onsv_palette$yellow,
+    lwd = 0.5
+  ) +
+  scale_y_continuous(limits = c(0, NA), expand = c(0, 0)) +
+  theme_onsv() +
+  labs(
+    x = "IF1 - Quantidade de faixas fiscalizadas a cada 10 mil veículos",
+    y = "II2 - Número de infrações de velocidade por faixa fiscalizada"
+  )
+```
+
+- A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_7$) e indicador de mortalidade no trânsito $IM_1$ – Taxa de mortes por bilhão de quilômetros percorridos não resultou estatisticamente significativa (p-valor = 0,107). 
+
+
+<p style="font-size: 16px;">Fonte: Os autores (2026)</p>
