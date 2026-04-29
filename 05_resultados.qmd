@@ -1,5 +1,7 @@
 # Resultados {#sec-resultados}
 
+## Cenário geral da fiscalização eletrônica de velocidade 
+
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(gt)
 library(tidyverse)
@@ -28,6 +30,7 @@ read_csv("export/radares_2024.csv") |>
   scale_x_continuous(breaks = seq(20, 120, 10), minor_breaks = NULL)
 ```
 
+## Indicadores brasileiros sobre fiscalização eletrônica de velocidade – Unidades da Federação
 A @tbl-ufs-i1 contém os valores dos sete indicadores de fiscalização eletrônica de velocidade ($IF_1$ ao $IF_7$) para o Brasil e para as 27 Unidades da Federação. Os valores estão ordenados em ordem decresecente conforme o $IF_1$, que manifesta o nível geral de fiscalização eletrônica de velocidade a partir de câmeras fixas de segurança.
 
 ```{r}
@@ -305,9 +308,13 @@ fig_i7 <- fig_i7 %>% layout(
 
 fig_i7
 ```
-Entre 2024 e 2025 houve um aumento do nível de fiscalização eletrônica no Brasil utilizando-se como referência o $IF_1$, que aumentou de 4,16 para 4,35 faixas fiscalizadas por câmeras fixas de segurança por grupo de 10 mil veículo – um aumento de 4,57%. Os valores para os anos de 2023 e 2026 podem ter sido influenciados pelo menor período de verificações disponível. Ao adotar como referência o $IF_2$, a evolução da série histórica é semelhante.     
+Entre 2024 e 2025 houve um aumento do nível de fiscalização eletrônica no Brasil utilizando-se como referência o $IF_1$, que passou de 4,16 para 4,35 faixas fiscalizadas por câmeras fixas de segurança por grupo de 10 mil veículos – um aumento de 4,57%. Os valores para os anos de 2023 e 2026 podem ter sido influenciados pelo menor período de verificações disponível. Ao adotar como referência o $IF_2$, a evolução da série histórica é semelhante.     
+
+## Indicadores brasileiros sobre fiscalização eletrônica de velocidade – Municípios
 
 Na @tbl-municipios-i1, @tbl-municipios-i2, @tbl-municipios-i3, @@tbl-municipios-i4, são apresentados os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ para os municípios brasileiros. Os valores são apresentados em ordem decrescente de cada indicador para os 10 municípios com os maiores valores. 
+
+
 
 ::: panel-tabset
 ## $IF_1$
@@ -448,6 +455,9 @@ Fonte: Os autores (2026)
 </p>
 
 Entre as capitais, Palmas (TO) liderou o ranking do nível de fiscalização eletrônica de velocidade dado por IF1, com 12,98 faixas fiscalizadas por grupo de 10 mil veículos. Brasília (DF) e Fortaleza vêm na sequência, com valores de 11,14 e 9,69 para o mesmo indicador. Curitiba (PR) e João Pessoa (PB) apresentaram níveis similares de fiscalização, com o indicador em torno de 8 faixas fiscalizadas por grupo de 10 mil veículos. No entanto, ao utilizar como referência o IF8, o ranking se modificou e Brasília (DF) passou a ocupar a primeira posição, com 40,73 faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município, seguida por Curitiba (PR) e Fortaleza (CE), com valores respectivamente iguais a 23,24 e 18,84.
+
+
+## Análises de correlação
 
 Os resultados das análises de correlação dos indicadores de fiscalização eletrônica de velocidade são listados a seguir: - A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e o indicador de infrações de trânsito II1 – Número de infrações de velocidade por grupo de 10 mil veículos não resultou estatisticamente significativa (p-valor = 0,199);
 

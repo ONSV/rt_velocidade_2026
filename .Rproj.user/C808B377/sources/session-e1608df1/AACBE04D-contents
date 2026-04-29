@@ -48,12 +48,14 @@ Nestas análises de correlação, os valores do $IF_1$ consideraram tanto as câ
 Análises de correlação de Spearman (nível de confiança de 95%) também foram realizadas entre os indicadores estaduais de fiscalização eletrônica ($IF_7$) de velocidade e os indicadores de mortalidade no trânsito da taxa de mortes por bilhão de quilômetros percorridos das diferentes unidades da federação para o ano de 2024 ($IM_1$).
 
 Na @tbl-infracoes podem ser consultados os valores considerados para II1, II2 e IM1. 
+
 ```{r}
+#| label: tbl-infracoes
+#| tbl-cap: "Indicadores de infrações e mortalidade para Unidades da Federação"
+
 library(tidyverse)
 library(gt)
 
-#| label: tbl-infracoes
-#| tbl-cap: "Indicadores de infrações e mortalidade para Unidades da Federação"
 tabela_infracoes <- read.csv("export/tabela_infracoes.csv") %>% 
   arrange(desc(ii1)) %>% 
   gt() %>%
