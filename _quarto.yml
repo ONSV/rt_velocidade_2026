@@ -14,6 +14,7 @@ book:
     orcid: 0009-0005-0639-8325
   - name: Dr. Jorge Tiago Bastos
     orcid: 0000-0001-6447-1504
+  - name: Marcelo Corrêa de Paula Silva
   date: last-modified
   chapters:
     - index.qmd
