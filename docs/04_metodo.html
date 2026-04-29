@@ -257,7 +257,7 @@ window.Quarto = {
 </ul>
 <p>Para o cálculo dos indicadores, utilizou-se os dados de frota de veículos disponibilizados pela Secretaria Nacional de Trânsito <span class="citation" data-cites="brasil2025a_senatran">(<a href="99_references.html#ref-brasil2025a_senatran" role="doc-biblioref">BRASIL 2025a</a>)</span>, a quantidade de quilômetros percorridos estimada em <span class="citation" data-cites="onsv_ufpr2026_taxa">ONSV e UFPR (<a href="99_references.html#ref-onsv_ufpr2026_taxa" role="doc-biblioref">2026</a>)</span> e a extensão de rodovias federais disponibilizada pelo Departamento Nacional de Infraestrutura de Transportes <span class="citation" data-cites="brasil2024c_dnit">(<a href="99_references.html#ref-brasil2024c_dnit" role="doc-biblioref">BRASIL 2024b</a>)</span>.</p>
 <p>Com o objetivo de possibilitar o acompanhamento dos indicadores de fiscalização eletrônica de velocidade nas Unidades da Federação, foram construídas séries históricas no período entre 2023 e 2026 para os indicadores <span class="math inline">\(IF_1\)</span>, <span class="math inline">\(IF_2\)</span>, <span class="math inline">\(IF_6\)</span> e <span class="math inline">\(IF_7\)</span>. Cabe mencionar, no entanto, que os dados de 2023 e 2026 constituem recortes de períodos menores. No caso de 2023, o período de recorte é o mês de março. No ano de 2026, o período de recorte compreende os meses entre janeiro e março. Para os anos de 2024 e 2025, foram considerados todos os meses. Para os equipamentos verificados mais de uma vez ao longo do ano, considerou-se a última verificação em que o equipamento foi aprovado.</p>
-<p>Os indicadores de fiscalização eletrônica de velocidade <span class="math inline">\(IF_1\)</span> ao <span class="math inline">\(IF_4\)</span> foram também calculados para os municípios brasileiros, possibilitando a elaboração de rankings.</p>
+<p>Os indicadores de fiscalização eletrônica de velocidade <span class="math inline">\(IF_1\)</span> ao <span class="math inline">\(IF_4\)</span> foram também calculados para os municípios brasileiros, possibilitando a elaboração de <em>rankings</em>.</p>
 <p>A fim de obter um diagnóstico das capitais brasileiras quanto ao nível de fiscalização eletrônica de velocidade, foi calculado um oitavo indicador (<span class="math inline">\(IF_8\)</span>), correspondente ao número de faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município. A extensão das vias foi obtida a partir de <span class="citation" data-cites="osm2024">OPENSTREETMAP CONTRIBUTORS (<a href="99_references.html#ref-osm2024" role="doc-biblioref">2024</a>)</span>.</p>
 <p>No nível estadual, foram compostos dois indicadores sobre infrações relacionadas à velocidade (<span class="math inline">\(II_1\)</span> e <span class="math inline">\(II_2\)</span>), considerando apenas aquelas infrações detectadas por dispositivos eletrônicos de medição de velocidade (câmeras de segurança), ou seja, as infrações dos códigos <strong>7455</strong>, <strong>7463</strong> e <strong>7471</strong>, seja o medidor fixo, estático, móvel ou portátil. O ano de referência adotado foi de 2024. Foram utilizados os dados de infrações disponibilizados pela Secretaria Nacional de Trânsito <span class="citation" data-cites="brasil2025b_infracoes">(<a href="99_references.html#ref-brasil2025b_infracoes" role="doc-biblioref">BRASIL 2025b</a>)</span>. Os indicadores sobre infrações relacionadas à velocidade encontram-se listados a seguir:</p>
 <ul>
@@ -271,6 +271,643 @@ window.Quarto = {
 </ul>
 <p>Nestas análises de correlação, os valores do <span class="math inline">\(IF_1\)</span> consideraram tanto as câmeras fixas quanto as estáticas, portáveis ou móveis, tendo em vista que não é possível distinguir as infrações de trânsito detectadas por equipamentos fixos, estáticos, móveis ou portáteis registradas sob os códigos <strong>7455</strong>, <strong>7463</strong> e <strong>7471</strong>.</p>
 <p>Análises de correlação de Spearman (nível de confiança de 95%) também foram realizadas entre os indicadores estaduais de fiscalização eletrônica (<span class="math inline">\(IF_7\)</span>) de velocidade e os indicadores de mortalidade no trânsito da taxa de mortes por bilhão de quilômetros percorridos das diferentes unidades da federação para o ano de 2024 (<span class="math inline">\(IM_1\)</span>).</p>
+<p>Na <span class="quarto-unresolved-ref">?tbl-infracoes</span> podem ser consultados os valores considerados para II1, II2 e IM1.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="etlhfkbclr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#etlhfkbclr table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#etlhfkbclr thead, #etlhfkbclr tbody, #etlhfkbclr tfoot, #etlhfkbclr tr, #etlhfkbclr td, #etlhfkbclr th {
+  border-style: none;
+}
+
+#etlhfkbclr p {
+  margin: 0;
+  padding: 0;
+}
+
+#etlhfkbclr .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: 80%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#etlhfkbclr .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#etlhfkbclr .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#etlhfkbclr .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#etlhfkbclr .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#etlhfkbclr .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#etlhfkbclr .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#etlhfkbclr .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#etlhfkbclr .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#etlhfkbclr .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#etlhfkbclr .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#etlhfkbclr .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#etlhfkbclr .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#etlhfkbclr .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#etlhfkbclr .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#etlhfkbclr .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#etlhfkbclr .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#etlhfkbclr .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#etlhfkbclr .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#etlhfkbclr .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#etlhfkbclr .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#etlhfkbclr .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#etlhfkbclr .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#etlhfkbclr .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#etlhfkbclr .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#etlhfkbclr .gt_left {
+  text-align: left;
+}
+
+#etlhfkbclr .gt_center {
+  text-align: center;
+}
+
+#etlhfkbclr .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#etlhfkbclr .gt_font_normal {
+  font-weight: normal;
+}
+
+#etlhfkbclr .gt_font_bold {
+  font-weight: bold;
+}
+
+#etlhfkbclr .gt_font_italic {
+  font-style: italic;
+}
+
+#etlhfkbclr .gt_super {
+  font-size: 65%;
+}
+
+#etlhfkbclr .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#etlhfkbclr .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#etlhfkbclr .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#etlhfkbclr .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#etlhfkbclr .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#etlhfkbclr .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#etlhfkbclr .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#etlhfkbclr .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#etlhfkbclr div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings header">
+<th id="uf" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col">UF</th>
+<th id="ii1" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(II_1\)</span></th>
+<th id="ii2" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(II_2\)</span></th>
+<th id="taxa_2024" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><span class="math inline">\(IM_1\)</span></th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">AP</td>
+<td class="gt_row gt_center" headers="ii1">202.514,74</td>
+<td class="gt_row gt_center" headers="ii2">73.644,06</td>
+<td class="gt_row gt_center" headers="taxa_2024">26.96</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">RR</td>
+<td class="gt_row gt_center" headers="ii1">154.831,76</td>
+<td class="gt_row gt_center" headers="ii2">66.802,97</td>
+<td class="gt_row gt_center" headers="taxa_2024">23.35</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">AC</td>
+<td class="gt_row gt_center" headers="ii1">147.140,76</td>
+<td class="gt_row gt_center" headers="ii2">120.145,33</td>
+<td class="gt_row gt_center" headers="taxa_2024">25.95</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">TO</td>
+<td class="gt_row gt_center" headers="ii1">83.820,74</td>
+<td class="gt_row gt_center" headers="ii2">10.892,88</td>
+<td class="gt_row gt_center" headers="taxa_2024">43.91</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">AM</td>
+<td class="gt_row gt_center" headers="ii1">81.229,74</td>
+<td class="gt_row gt_center" headers="ii2">221.984,45</td>
+<td class="gt_row gt_center" headers="taxa_2024">25.82</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">SE</td>
+<td class="gt_row gt_center" headers="ii1">71.980,88</td>
+<td class="gt_row gt_center" headers="ii2">16.558,73</td>
+<td class="gt_row gt_center" headers="taxa_2024">15.57</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">RO</td>
+<td class="gt_row gt_center" headers="ii1">49.660,52</td>
+<td class="gt_row gt_center" headers="ii2">39.589,56</td>
+<td class="gt_row gt_center" headers="taxa_2024">29.04</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">MS</td>
+<td class="gt_row gt_center" headers="ii1">45.922,64</td>
+<td class="gt_row gt_center" headers="ii2">8.237,50</td>
+<td class="gt_row gt_center" headers="taxa_2024">28.13</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">PI</td>
+<td class="gt_row gt_center" headers="ii1">43.560,23</td>
+<td class="gt_row gt_center" headers="ii2">8.741,91</td>
+<td class="gt_row gt_center" headers="taxa_2024">29.61</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">PB</td>
+<td class="gt_row gt_center" headers="ii1">42.600,93</td>
+<td class="gt_row gt_center" headers="ii2">9.541,07</td>
+<td class="gt_row gt_center" headers="taxa_2024">46.17</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">AL</td>
+<td class="gt_row gt_center" headers="ii1">40.465,65</td>
+<td class="gt_row gt_center" headers="ii2">14.011,65</td>
+<td class="gt_row gt_center" headers="taxa_2024">62.39</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">MA</td>
+<td class="gt_row gt_center" headers="ii1">36.678,46</td>
+<td class="gt_row gt_center" headers="ii2">16.861,90</td>
+<td class="gt_row gt_center" headers="taxa_2024">48.43</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">ES</td>
+<td class="gt_row gt_center" headers="ii1">31.474,87</td>
+<td class="gt_row gt_center" headers="ii2">9.803,95</td>
+<td class="gt_row gt_center" headers="taxa_2024">40.23</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">RN</td>
+<td class="gt_row gt_center" headers="ii1">24.614,70</td>
+<td class="gt_row gt_center" headers="ii2">6.716,59</td>
+<td class="gt_row gt_center" headers="taxa_2024">28.93</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">PE</td>
+<td class="gt_row gt_center" headers="ii1">14.780,01</td>
+<td class="gt_row gt_center" headers="ii2">6.524,31</td>
+<td class="gt_row gt_center" headers="taxa_2024">67.03</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf" style="font-weight: bold">BR</td>
+<td class="gt_row gt_center" headers="ii1" style="font-weight: bold">10.681,67</td>
+<td class="gt_row gt_center" headers="ii2" style="font-weight: bold">2.566,34</td>
+<td class="gt_row gt_center" headers="taxa_2024" style="font-weight: bold">NA</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">DF</td>
+<td class="gt_row gt_center" headers="ii1">7.659,85</td>
+<td class="gt_row gt_center" headers="ii2">687,77</td>
+<td class="gt_row gt_center" headers="taxa_2024">14.64</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">GO</td>
+<td class="gt_row gt_center" headers="ii1">5.780,71</td>
+<td class="gt_row gt_center" headers="ii2">815,32</td>
+<td class="gt_row gt_center" headers="taxa_2024">28.90</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">RS</td>
+<td class="gt_row gt_center" headers="ii1">4.316,77</td>
+<td class="gt_row gt_center" headers="ii2">1.729,96</td>
+<td class="gt_row gt_center" headers="taxa_2024">38.14</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">CE</td>
+<td class="gt_row gt_center" headers="ii1">3.428,60</td>
+<td class="gt_row gt_center" headers="ii2">400,04</td>
+<td class="gt_row gt_center" headers="taxa_2024">37.13</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">PR</td>
+<td class="gt_row gt_center" headers="ii1">3.244,02</td>
+<td class="gt_row gt_center" headers="ii2">824,91</td>
+<td class="gt_row gt_center" headers="taxa_2024">47.92</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">SP</td>
+<td class="gt_row gt_center" headers="ii1">3.006,77</td>
+<td class="gt_row gt_center" headers="ii2">710,47</td>
+<td class="gt_row gt_center" headers="taxa_2024">50.99</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">SC</td>
+<td class="gt_row gt_center" headers="ii1">2.917,68</td>
+<td class="gt_row gt_center" headers="ii2">728,52</td>
+<td class="gt_row gt_center" headers="taxa_2024">22.13</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">MT</td>
+<td class="gt_row gt_center" headers="ii1">2.840,87</td>
+<td class="gt_row gt_center" headers="ii2">772,01</td>
+<td class="gt_row gt_center" headers="taxa_2024">23.37</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">PA</td>
+<td class="gt_row gt_center" headers="ii1">2.749,17</td>
+<td class="gt_row gt_center" headers="ii2">674,69</td>
+<td class="gt_row gt_center" headers="taxa_2024">39.97</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">MG</td>
+<td class="gt_row gt_center" headers="ii1">2.718,84</td>
+<td class="gt_row gt_center" headers="ii2">715,19</td>
+<td class="gt_row gt_center" headers="taxa_2024">30.18</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="uf">RJ</td>
+<td class="gt_row gt_center" headers="ii1">2.497,68</td>
+<td class="gt_row gt_center" headers="ii2">728,74</td>
+<td class="gt_row gt_center" headers="taxa_2024">20.11</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center" headers="uf">BA</td>
+<td class="gt_row gt_center" headers="ii1">2.253,64</td>
+<td class="gt_row gt_center" headers="ii2">572,92</td>
+<td class="gt_row gt_center" headers="taxa_2024">48.33</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
