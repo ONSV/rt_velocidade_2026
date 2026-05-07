@@ -313,7 +313,7 @@ Entre 2024 e 2025 houve um aumento do nível de fiscalização eletrônica no Br
 
 ## Indicadores brasileiros sobre fiscalização eletrônica de velocidade – Municípios
 
-Na @tbl-municipios-i1, @tbl-municipios-i2, @tbl-municipios-i3, \@@tbl-municipios-i4, são apresentados os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ para os municípios brasileiros. Os valores são apresentados em ordem decrescente de cada indicador para os 10 municípios com os maiores valores.
+Na @tbl-municipios-i1, @tbl-municipios-i2, @tbl-municipios-i3, @tbl-municipios-i4, são apresentados os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ para os municípios brasileiros. Os valores são apresentados em ordem decrescente de cada indicador para os 10 municípios com os maiores valores.
 
 ::: panel-tabset
 ## $IF_1$
