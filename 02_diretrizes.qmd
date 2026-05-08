@@ -16,57 +16,57 @@ Em uma publicação mais recente, o guia “Designing for Safe Speeds”, do Glo
 
 No contexto brasileiro, o Plano Nacional de Redução de Mortes e Lesões no Trânsito (Pnatrans) contempla diversos aspectos relacionados à gestão de velocidades. Dentre as diversas ações descritas na Resolução CONTRAN n° 1004, de dezembro de 2023, referente ao (Pnatrans), aquelas que tratam da gestão de velocidades encontram-se listadas a seguir [@brasil2023contran]:
 
-- **Ação 2001** - Revisar normativos e manuais técnicos referentes a sinalização de trânsito para incorporarem inovações e acompanharem os preceitos de sistemas seguros;
+-   **Ação 2001** - Revisar normativos e manuais técnicos referentes a sinalização de trânsito para incorporarem inovações e acompanharem os preceitos de sistemas seguros;
 
-  - Produto 2001 - Definição de cronograma de normas e manuais prioritários a serem revisados, com base em evidências locais e melhores práticas internacionais;
+    -   Produto 2001 - Definição de cronograma de normas e manuais prioritários a serem revisados, com base em evidências locais e melhores práticas internacionais;
 
-  - Produto 2002 - Revisão de normas e manuais de sinalização de trânsito;
+    -   Produto 2002 - Revisão de normas e manuais de sinalização de trânsito;
 
-  - Produto 2003 - Revisão da regulamentação de procedimentos de testes para uso temporário de sinalização de trânsito e de soluções inovadoras de engenharia de tráfego;
+    -   Produto 2003 - Revisão da regulamentação de procedimentos de testes para uso temporário de sinalização de trânsito e de soluções inovadoras de engenharia de tráfego;
 
-  - Produto 2004 - Divulgação dos resultados de testes de sinalização de trânsito e das soluções inovadoras implementadas no referido ano.
+    -   Produto 2004 - Divulgação dos resultados de testes de sinalização de trânsito e das soluções inovadoras implementadas no referido ano.
 
-- **Ação 2002** - Expandir soluções e referências técnicas oficiais para infraestrutura viária segura, de acordo com os preceitos de sistema seguro;
+-   **Ação 2002** - Expandir soluções e referências técnicas oficiais para infraestrutura viária segura, de acordo com os preceitos de sistema seguro;
 
-  - Produto 2009 - Elaboração de cartilha para incorporação de estratégias de Sistema Seguro e Visão Zero nos projetos de infraestrutura viária;
+    -   Produto 2009 - Elaboração de cartilha para incorporação de estratégias de Sistema Seguro e Visão Zero nos projetos de infraestrutura viária;
 
-  - Produto 2010 - Capacitações em Sistema Seguro e Visão Zero para gestores e técnicos de mobilidade de todas as esferas governamentais;
+    -   Produto 2010 - Capacitações em Sistema Seguro e Visão Zero para gestores e técnicos de mobilidade de todas as esferas governamentais;
 
-  - Produto 2011 - Elaboração de manual de medidas moderadoras de tráfego, especificando os padrões de segurança considerando as funções das vias e as necessidades de todos os usuários;
+    -   Produto 2011 - Elaboração de manual de medidas moderadoras de tráfego, especificando os padrões de segurança considerando as funções das vias e as necessidades de todos os usuários;
 
-  - Produto 2012 - Regulamentação de novos elementos de moderação de velocidade, e outros elementos para implementação de infraestrutura viária compatível com sistema seguro;
+    -   Produto 2012 - Regulamentação de novos elementos de moderação de velocidade, e outros elementos para implementação de infraestrutura viária compatível com sistema seguro;
 
-  - Produto 2014 - Elaboração de manual para projetos de corredores de priorização do transporte público coletivo, com enfoque na segurança de todos os usuários, contemplando diretrizes de projetos geométricos e sinalização viária.
+    -   Produto 2014 - Elaboração de manual para projetos de corredores de priorização do transporte público coletivo, com enfoque na segurança de todos os usuários, contemplando diretrizes de projetos geométricos e sinalização viária.
 
-- **Ação 2003** - Regulamentar e orientar a implantação de projetos de gestão de velocidades em áreas urbanas;
+-   **Ação 2003** - Regulamentar e orientar a implantação de projetos de gestão de velocidades em áreas urbanas;
 
-  - Produto 2017 - Elaboração de manual de gestão de velocidades em áreas urbanas, em linha com a abordagem de Sistema Seguro e com a Declaração de Estocolmo;
+    -   Produto 2017 - Elaboração de manual de gestão de velocidades em áreas urbanas, em linha com a abordagem de Sistema Seguro e com a Declaração de Estocolmo;
 
-  - Produto 2018 - Capacitações em gestão de velocidades para gestores públicos e técnicos de mobilidade de diferentes esferas;
+    -   Produto 2018 - Capacitações em gestão de velocidades para gestores públicos e técnicos de mobilidade de diferentes esferas;
 
-  - Produto 2019 - Revisão dos limites de velocidade permitidos pela lei federal e adequação aos recomendados pela Organização Mundial de Saúde (OMS);
+    -   Produto 2019 - Revisão dos limites de velocidade permitidos pela lei federal e adequação aos recomendados pela Organização Mundial de Saúde (OMS);
 
-  - Produto 2020 - Regulamentação da fiscalização de velocidade média;
+    -   Produto 2020 - Regulamentação da fiscalização de velocidade média;
 
-  - Produto 2021 - Publicação de lei dispondo sobre velocidade de circulação de motociclistas nos corredores, considerando um limite menor ou igual ao limite da via.
+    -   Produto 2021 - Publicação de lei dispondo sobre velocidade de circulação de motociclistas nos corredores, considerando um limite menor ou igual ao limite da via.
 
-- **Ação 6005** - Fortalecer a fiscalização de velocidade em rodovias e vias urbanas;
+-   **Ação 6005** - Fortalecer a fiscalização de velocidade em rodovias e vias urbanas;
 
-  - Produto 6018 - Instalação de equipamentos de fiscalização eletrônica em novos pontos críticos identificados em rodovias e vias urbanas, com limite de velocidade igual ou acima de 60 km/h;
+    -   Produto 6018 - Instalação de equipamentos de fiscalização eletrônica em novos pontos críticos identificados em rodovias e vias urbanas, com limite de velocidade igual ou acima de 60 km/h;
 
-  - Produto 6020 - Direcionamento da fiscalização para ocorrências de excesso de velocidade e, no caso de rodovias, ultrapassagens proibidas.
+    -   Produto 6020 - Direcionamento da fiscalização para ocorrências de excesso de velocidade e, no caso de rodovias, ultrapassagens proibidas.
 
-- **Ação 6007** - Direcionar a fiscalização de trânsito referente aos fatores de risco e de proteção dos usuários do sistema de mobilidade.
+-   **Ação 6007** - Direcionar a fiscalização de trânsito referente aos fatores de risco e de proteção dos usuários do sistema de mobilidade.
 
-  - Produto 6025 - Direcionamento da fiscalização de trânsito para constatação das infrações de não uso do cinto de segurança e de transporte inadequado de crianças em veículos automotores;
+    -   Produto 6025 - Direcionamento da fiscalização de trânsito para constatação das infrações de não uso do cinto de segurança e de transporte inadequado de crianças em veículos automotores;
 
-  - Produto 6026 - Direcionamento da fiscalização de trânsito para constatação das infrações de não uso e uso inadequado do capacete para motociclistas bem como outras condutas de risco de motociclistas;
+    -   Produto 6026 - Direcionamento da fiscalização de trânsito para constatação das infrações de não uso e uso inadequado do capacete para motociclistas bem como outras condutas de risco de motociclistas;
 
-  - Produto 6027 - Direcionamento da fiscalização de trânsito para constatação das infrações relacionados a condutores que consomem álcool e outras substâncias psicoativas;
+    -   Produto 6027 - Direcionamento da fiscalização de trânsito para constatação das infrações relacionados a condutores que consomem álcool e outras substâncias psicoativas;
 
-  - Produto 6028 - Direcionamento da fiscalização de trânsito para comportamentos que promovam a distração dos condutores ou condução prejudicada como uso do celular e desrespeito ao tempo de descanso para condutores profissionais;
+    -   Produto 6028 - Direcionamento da fiscalização de trânsito para comportamentos que promovam a distração dos condutores ou condução prejudicada como uso do celular e desrespeito ao tempo de descanso para condutores profissionais;
 
-  - Produto 6029 - Direcionamento da fiscalização para prevenção das infrações que colocam pedestres e ciclistas em risco.
+    -   Produto 6029 - Direcionamento da fiscalização para prevenção das infrações que colocam pedestres e ciclistas em risco.
 
 Percebe-se, a partir da diversidade de ações e produtos referentes à gestão de velocidades no Pnatrans, que o tema está adequadamente contemplado na política nacional de segurança viária. Entretanto, resultados objetivos na redução de mortos e feridos no trânsito apenas serão atingidos se os produtos previstos no Pnatrans forem efetivamente elaborados.
 
