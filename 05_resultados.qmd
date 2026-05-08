@@ -32,7 +32,7 @@ read_csv("export/radares_2024.csv") |>
 
 ## Indicadores brasileiros sobre fiscalização eletrônica de velocidade – Unidades da Federação
 
-A @tbl-ufs-i1 contém os valores dos sete indicadores de fiscalização eletrônica de velocidade ($IF_1$ ao $IF_7$) para o Brasil e para as 27 Unidades da Federação. Os valores estão ordenados em ordem decresecente conforme o $IF_1$, que manifesta o nível geral de fiscalização eletrônica de velocidade a partir de câmeras fixas de segurança.
+A @tbl-ufs-i1 contém os valores dos sete indicadores de fiscalização eletrônica de velocidade ($IF_1$ ao $IF_7$) para o Brasil e para as 27 Unidades da Federação. Os valores estão ordenados em ordem decrescente conforme o $IF_1$, que manifesta o nível geral de fiscalização eletrônica de velocidade a partir de câmeras fixas de segurança.
 
 ```{r}
 #| label: tbl-ufs-i1
@@ -321,7 +321,7 @@ Na @tbl-municipios-i1, @tbl-municipios-i2, @tbl-municipios-i3, @tbl-municipios-i
 ```{r}
 #| label: tbl-municipios-i1
 #| fig-cap: "Ranking de municípios segundo o $IF_1$"
-read.csv("export/2024_municipios_if1.csv") %>%
+if1 <- read.csv("export/2024_municipios_if1.csv") %>%
     select(uf, municipio_formatado, i1) %>% 
   gt() %>% 
   tab_options(
@@ -337,6 +337,10 @@ read.csv("export/2024_municipios_if1.csv") %>%
     i1 = md("$IF_1$")
   ) %>%
   fmt_number(columns = i1, decimals = 2, dec_mark = ",", sep_mark = ".")
+
+gtsave(data = if1, filename = "export/if1_municipios.png")
+
+if1
 ```
 
 ## $IF_2$
@@ -344,7 +348,7 @@ read.csv("export/2024_municipios_if1.csv") %>%
 ```{r}
 #| label: tbl-municipios-i2
 #| fig-cap: "Ranking de municípios segundo o $IF_2$"
-read.csv("export/2024_municipios_if2.csv") %>% 
+if2 <- read.csv("export/2024_municipios_if2.csv") %>% 
     select(uf, municipio_formatado, i2) %>% 
   gt() %>% 
     tab_options(
@@ -360,6 +364,9 @@ read.csv("export/2024_municipios_if2.csv") %>%
     i2 = md("$IF_2$")
   ) %>%
   fmt_number(columns = i2, decimals = 2, dec_mark = ",", sep_mark = ".")
+
+gtsave(if2, "export/if2_municipios.png")
+if2
 ```
 
 ## $IF_3$
@@ -367,7 +374,7 @@ read.csv("export/2024_municipios_if2.csv") %>%
 ```{r}
 #| label: tbl-municipios-i3
 #| fig-cap: "Ranking de municípios segundo o $IF_3$"
-read.csv("export/2024_municipios_if3.csv") %>% 
+if3 <- read.csv("export/2024_municipios_if3.csv") %>% 
     select(uf, municipio_formatado, i3) %>% 
   gt() %>% 
     tab_options(
@@ -383,6 +390,10 @@ read.csv("export/2024_municipios_if3.csv") %>%
     i3 = md("$IF_3$")
   ) %>%
   fmt_number(columns = i3, decimals = 2, dec_mark = ",", sep_mark = ".")
+
+gtsave(if3, "export/if3_municipios.png")
+
+if3
 ```
 
 ## $IF_4$
@@ -390,7 +401,7 @@ read.csv("export/2024_municipios_if3.csv") %>%
 ```{r}
 #| label: tbl-municipios-i4
 #| fig-cap: "Ranking de municípios segundo o $IF_4$"
-read.csv("export/2024_municipios_if4.csv") %>% 
+if4 <- read.csv("export/2024_municipios_if4.csv") %>% 
     select(uf, municipio_formatado, i4) %>% 
   gt() %>% 
     tab_options(
@@ -406,6 +417,10 @@ read.csv("export/2024_municipios_if4.csv") %>%
     i4 = md("$IF_4$")
   ) %>%
   fmt_number(columns = i4, decimals = 2, dec_mark = ",", sep_mark = ".")
+
+gtsave(if4, "export/if4_municipios.png")
+
+if4
 ```
 :::
 
@@ -454,13 +469,13 @@ Fonte: Os autores (2026)
 
 </p>
 
-Entre as capitais, Palmas (TO) liderou o ranking do nível de fiscalização eletrônica de velocidade dado por IF1, com 12,98 faixas fiscalizadas por grupo de 10 mil veículos. Brasília (DF) e Fortaleza vêm na sequência, com valores de 11,14 e 9,69 para o mesmo indicador. Curitiba (PR) e João Pessoa (PB) apresentaram níveis similares de fiscalização, com o indicador em torno de 8 faixas fiscalizadas por grupo de 10 mil veículos. No entanto, ao utilizar como referência o IF8, o ranking se modificou e Brasília (DF) passou a ocupar a primeira posição, com 40,73 faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município, seguida por Curitiba (PR) e Fortaleza (CE), com valores respectivamente iguais a 23,24 e 18,84.
+Entre as capitais, Palmas (TO) liderou o ranking do nível de fiscalização eletrônica de velocidade dado por $IF_1$, com 12,98 faixas fiscalizadas por grupo de 10 mil veículos. Brasília (DF) e Fortaleza vêm na sequência, com valores de 11,14 e 9,69 para o mesmo indicador. Curitiba (PR) e João Pessoa (PB) apresentaram níveis similares de fiscalização, com o indicador em torno de 8 faixas fiscalizadas por grupo de 10 mil veículos. No entanto, ao utilizar como referência o IF8, o ranking se modificou e Brasília (DF) passou a ocupar a primeira posição, com 40,73 faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município, seguida por Curitiba (PR) e Fortaleza (CE), com valores respectivamente iguais a 23,24 e 18,84.
 
 ## Análises de correlação
 
-Os resultados das análises de correlação dos indicadores de fiscalização eletrônica de velocidade são listados a seguir: - A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e o indicador de infrações de trânsito II1 – Número de infrações de velocidade por grupo de 10 mil veículos não resultou estatisticamente significativa (p-valor = 0,199);
+Os resultados das análises de correlação dos indicadores de fiscalização eletrônica de velocidade são listados a seguir: - A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e o indicador de infrações de trânsito $II_1$ – Número de infrações de velocidade por grupo de 10 mil veículos não resultou estatisticamente significativa (p-valor = 0,199);
 
--   A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e indicador de infrações de trânsito II2 – Número de infrações de velocidade por faixa fiscalizada por câmera de segurança resultou inversa e estatisticamente significativa, com coeficiente de correlção igual a -0,58 (p-valor = 0,002);
+-   A análise de correlação entre o indicador de fiscalização eletrônica de velocidade ($IF_1$) e indicador de infrações de trânsito $II_2$ – Número de infrações de velocidade por faixa fiscalizada por câmera de segurança resultou inversa e estatisticamente significativa, com coeficiente de correlção igual a -0,58 (p-valor = 0,002);
 
 ```{r}
 #| label: fig-correlacao-ii2

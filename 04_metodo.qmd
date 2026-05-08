@@ -30,7 +30,8 @@ Os indicadores de fiscalização eletrônica de velocidade $IF_1$ ao $IF_4$ fora
 
 A fim de obter um diagnóstico das capitais brasileiras quanto ao nível de fiscalização eletrônica de velocidade, foi calculado um oitavo indicador ($IF_8$), correspondente ao número de faixas fiscalizadas por câmeras fixas de segurança a cada 100 quilômetros de vias do município. A extensão das vias foi obtida a partir de @osm2024.
 
-No nível estadual, foram compostos dois indicadores sobre infrações relacionadas à velocidade ($II_1$ e $II_2$), considerando apenas aquelas infrações detectadas por dispositivos eletrônicos de medição de velocidade (câmeras de segurança), ou seja, as infrações dos códigos **7455**, **7463** e **7471**, seja o medidor fixo, estático, móvel ou portátil. O ano de referência adotado foi de 2024. Foram utilizados os dados de infrações disponibilizados pela Secretaria Nacional de Trânsito [@brasil2025b_infracoes]. Os indicadores sobre infrações relacionadas à velocidade encontram-se listados a seguir:
+No nível estadual, foram compostos dois indicadores sobre infrações relacionadas à velocidade 
+($II_1$ e $II_2$), considerando apenas aquelas infrações detectadas por dispositivos eletrônicos de medição de velocidade (câmeras de segurança), ou seja, as infrações dos códigos **7455**, **7463** e **7471**, seja o medidor fixo, estático, móvel ou portátil. O ano de referência adotado foi de 2024. Foram utilizados os dados de infrações disponibilizados pela Secretaria Nacional de Trânsito [@brasil2025b_infracoes]. Os indicadores sobre infrações relacionadas à velocidade encontram-se listados a seguir:
 
 -   **Indicador 1** ($II_1$) – Número de infrações de velocidade por grupo de 10 mil veículos, manifestando a quantidade de infrações em um local;
 
@@ -75,7 +76,7 @@ tabela_infracoes <- read.csv("export/tabela_infracoes.csv") %>%
     ii2 = md("$II_2$"),
     taxa_2024 = md("$IM_1$")
   ) %>%
-  fmt_number(columns = c(ii1,ii2), decimals = 2, dec_mark = ",",
+  fmt_number(columns = c(ii1,ii2, taxa_2024), decimals = 2, dec_mark = ",",
     sep_mark = ".") %>% 
   cols_width(
       uf ~ px(20), 
