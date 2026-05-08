@@ -35,7 +35,7 @@ No nível estadual, foram compostos dois indicadores sobre infrações relaciona
 
 -   **Indicador 1** ($II_1$) – Número de infrações de velocidade por grupo de 10 mil veículos, manifestando a quantidade de infrações em um local;
 
--   **Indicador 2** ($II_2$) – Número de infrações de velocidade por câmera de segurança, manifestando o nível de obediência à fiscalização eletrônica.
+-   **Indicador 2** ($II_2$) – Número de infrações de velocidade por faixa fiscalizada por câmera de segurança, manifestando o nível de obediência à fiscalização eletrônica.
 
 Após o cálculo dos indicadores e considerando-se o conjunto de indicadores das Unidades da Federação, procedeu-se para uma análise das correlações de Spearman (nível de confiança de 95%) entre:
 
